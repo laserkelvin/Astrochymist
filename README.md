@@ -11,6 +11,9 @@ with `Pandas`. The script can be called simply by running:
 or alternatively, by importing it as a function (if you are using Jupyter
 notebooks).
 
+The enclosed Jupyter notebook is an example.
+
 The current version does not separate the chemical formulas from the names.
 This is mainly due to the HTML, although in theory it could be done perhaps
 with some regex.
+
