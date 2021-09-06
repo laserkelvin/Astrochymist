@@ -21,12 +21,12 @@ import re
 
 
 def clean_formula_string(formula: str):
-    for symbol in ["+", "–", "c-", "trans", "n", "E-", "t-", "Z-", "l-", "-", "≡", "="]:
+    for symbol in ["+", "–", "c-", "o", "trans", "n", "E-", "t-", "Z-", "l-", "-", "≡", "="]:
         formula = formula.replace(symbol, "")
     try:
         form_obj = pt.formula(formula)
-    except:
-        print(formula)
+    except Exception as error:
+        raise ParseError(f"Unable to parse {formula}; error: {error}")
     return form_obj
 
 
