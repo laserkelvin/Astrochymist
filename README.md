@@ -3,6 +3,10 @@
 This is a script to pull information from the Astrochymist, a valuable source
 of discoveries of molecules in space.
 
+You can install the requirements needed by the script by running:
+
+`pip install -r requirements.txt`
+
 The script is written in Python 3, parsing with `BeautifulSoup` and outputting
 with `Pandas`. The script can be called simply by running:
 
