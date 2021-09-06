@@ -16,7 +16,63 @@ import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 import requests
+import periodictable as pt
 import re
+
+
+def clean_formula_string(formula: str):
+    for symbol in ["+", "–", "c-", "trans", "n", "E-", "t-", "Z-", "l-", "-", "≡", "="]:
+        formula = formula.replace(symbol, "")
+    try:
+        form_obj = pt.formula(formula)
+    except:
+        print(formula)
+    return form_obj
+
+
+def get_atom_dict(formula: str):
+    form_obj = clean_formula_string(formula)
+    atom_dict = {str(atom): number for atom, number in form_obj.atoms.items()}
+    return atom_dict
+
+
+def formula_multiplicity(formula: str) -> bool:
+    """
+    Determines if the molecule is open or closed shell from its formula.
+    """
+    if "+" in formula:
+        num_elec = -1
+    elif "–" in formula:
+        num_elec = 1
+    else:
+        num_elec = 0
+    form_obj = clean_formula_string(formula)
+    for atom, number in form_obj.atoms.items():
+        num_elec += atom.number * number
+    return num_elec % 2 != 0
+
+
+def clean_html_tags(text: str):
+    # this comprises HTML tags that need to be removed. Primarily
+    # this is for molecular formula
+    for match in ["<sup>", "</sup>", "<sub>", "</sub>", 
+                  "<b>", "</b>", "<i>", "</i>", "*", "\n",
+                  '''<font face="Helvetica" size="4">'''
+                 ]:
+        text = text.replace(match, "")
+    return text
+
+
+def final_text_clean(text: str) -> str:
+    """
+    This is just a function that operates as a pipeline for any
+    post cleaning required before adding it to the row data.
+    """
+    # some molecules are not thoroughly cleaned, and so we remove
+    # all the text that comes after <br/>
+    if "br" in text:
+        text = text.split("<br/>")[0]
+    return text
 
 
 def main():
@@ -26,7 +82,6 @@ def main():
     soup = BeautifulSoup(response.text, 'lxml')  # Parse the HTML as a string
 
     table = soup.find_all('table')[2]            # Grab the third table, which contains the molecules
-
     data = list()
 
     colormapping = {
@@ -34,72 +89,75 @@ def main():
         "yellow": "UV/Vis",
         "pink": "IR"
     }
-
-    for row_index, row in enumerate(table.find_all("tr")):
-        # Skip the first row
-        if row_index > 0:
-            # This condition is unnecessary; if you are testing
-            # then drop the maximum row
-            if row_index < 400:
-                columns = row.find_all(["th", "td"])
-                clean_row = list()
-                # Cleaning and preprocessing
-                row_text = [td.text.split("\n") for td in columns]
-                for col in row_text:
-                    clean_row.append([x.replace("  ", "") for x in col if x])
-                # Skip rows if we find data that shouldn't be in that row
-                if clean_row[1][0].isdigit() or clean_row[1][0] == '4-13-1' or len(clean_row) < 4:
+    for index, row in enumerate(table.find_all("tr")[1:]):
+        row_data = {"formula": "", "year": 0, 
+                    "Radio": False, "IR": False, "UV/Vis": False, "authors": list()}
+        # loop over columns
+        for col_index, column in enumerate(row.find_all(["th", "td"])):
+            # first column is the year; we only grab it if it begins with a digit
+            # because there are some weird A+E characters
+            if col_index == 0:
+                try:
+                    year = clean_html_tags(str(column.contents[0].contents[0]))
+                    if year.isdigit():
+                        row_data["year"] = year
+                except ValueError:
                     pass
-                else:
-                    # row_data contains all of the parsed stuff as a list
-                    row_data = list()
-                    for col_index, col in enumerate(clean_row):
-                        if col_index == 0:
-                            # Check that the first element is a number
-                            # to ensure it's the year we're parsing
-                            if col[0].isdigit():
-                                row_data.append(int(col[0]))
-                        # Second column are the molecules
-                        elif col_index == 1:
-                            row_data.append(col[0])
-                        elif col_index == 2:
-                            # Loop over the references, and use regex to extract
-                            # the author names
-                            authors = list()
-                            for text in col:
-                                # Regex will pick up capital letter followed by period,
-                                # space, a capital letter and at least three lower case
-                                authors.extend(
-                                    re.findall(r"[A-Z]\.\s[A-Za-z]\w{3,}", text)
-                                )
-                                # Find all authors not formatted the same way
-                                authors.extend(
-                                    re.findall(r"[A-Z]\.[A-Za-z]\w{3,}", text)
-                                )
-                            # Remove whitespace
-                            authors = [author.replace(" ", "") for author in authors]
-                            # Make sure all authors are formatted the same way
-                            authors = [" ".join(author.split(".")) for author in authors]
-                            row_data.append(authors)
-                        # Fourth column contains the source and technique
-                        elif col_index == 3:
-                            techs = list()
-                            # Reference the last column
-                            last_col = columns[-1]
-                            row_data.append(col[0])
-                            # Check for the color of the text, which reflects
-                            # the method used for detection
-                            for color, tech in colormapping.items():
-                                if last_col.find("font", {"color": color}):
-                                    techs.append(tech)
-                            row_data.append(techs)
-                    data.append(row_data)
+                # this is the year
+            # this grabs the molecular formula; in principle the name is also
+            # contained after <br/> but we seldom use it anyway
+            elif col_index == 1:
+                contents = [str(value) for value in column.contents[0]]
+                formula_string = list()
+                for substring in contents:
+                    if str(substring) == "<br/>":
+                        break
+                    else:
+                        substring = clean_html_tags(substring)
+                        formula_string.append(substring)
+                formula_string = ''.join(formula_string)
+                formula_string = final_text_clean(formula_string)
+                if not formula_string[0].isdigit():
+                    row_data["formula"] = formula_string
+                if column.find("font", {"color": "ORANGE"}):
+                    row_data["disputed"] = True
+            elif col_index == 2:
+                # Loop over the references, and use regex to extract
+                # the author names
+                authors = list()
+                references = ''.join([str(val) for val in column.contents])
+                # Regex will pick up capital letter followed by period,
+                # space, a capital letter and at least three lower case
+                authors.extend(
+                    re.findall(r"[A-Z]\.\s[A-Za-z]\w{3,}", references)
+                )
+                # Find all authors not formatted the same way
+                authors.extend(
+                    re.findall(r"[A-Z]\.[A-Za-z]\w{3,}", references)
+                )
+                # Remove whitespace
+                authors = [author.replace(" ", "") for author in authors]
+                # Make sure all authors are formatted the same way
+                authors = [" ".join(author.split(".")) for author in authors]
+                row_data["authors"] = authors
+            # last column is the detection method; this is inferred from the
+            # color used for the HTML
+            elif col_index == 3:
+                techs = list()
+                for color, tech in colormapping.items():
+                    if column.find("font", {"color": color}):
+                        row_data[tech] = True
+        # get the atom numbers too
+        atom_dict = get_atom_dict(row_data["formula"])
+        row_data["total"] = sum(atom_dict.values())
+        row_data.update(atom_dict)
+        data.append(row_data)
 
     # Set up pandas dataframe
-    df = pd.DataFrame(data=data, columns=["Year", "Molecule", "Authors", "Source", "Detection Method"])
-
-    # Remove trans-HCOOCH3 until David figures out what he wants to do
-    df = df[df["Molecule"] != "trans HCOOCH3"]
+    df = pd.DataFrame(data=data)
+    # remove blank entries
+    df = df.loc[(df["formula"] != "")]
+    df["radical?"] = df["formula"].apply(formula_multiplicity)
 
     # Dump to file
     df.to_csv("astrochymist.csv", index=False)
