@@ -21,18 +21,23 @@ import re
 
 
 def clean_formula_string(formula: str):
-    for symbol in ["+", "–", "c-", "o", "trans", "n", "E-", "t-", "Z-", "l-", "-", "≡", "="]:
+    for symbol in ["+", "i-", "–", "c-", "o", "trans", "n", "E-", "t-", "Z-", "l-", "-", "≡", "="]:
         formula = formula.replace(symbol, "")
     try:
         form_obj = pt.formula(formula)
     except Exception as error:
-        raise ParseError(f"Unable to parse {formula}; error: {error}")
-    return form_obj
+        print(f"Unable to parse {formula}; error: {error}")
+        form_obj = None
+    finally:
+        return form_obj
 
 
 def get_atom_dict(formula: str):
     form_obj = clean_formula_string(formula)
-    atom_dict = {str(atom): number for atom, number in form_obj.atoms.items()}
+    if form_obj:
+        atom_dict = {str(atom): number for atom, number in form_obj.atoms.items()}
+    else:
+        atom_dict = {}
     return atom_dict
 
 
@@ -47,8 +52,11 @@ def formula_multiplicity(formula: str) -> bool:
     else:
         num_elec = 0
     form_obj = clean_formula_string(formula)
-    for atom, number in form_obj.atoms.items():
-        num_elec += atom.number * number
+    if form_obj:
+        for atom, number in form_obj.atoms.items():
+            num_elec += atom.number * number
+    else:
+        num_elec = 2
     return num_elec % 2 != 0
 
 
