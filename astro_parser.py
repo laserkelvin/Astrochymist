@@ -80,6 +80,8 @@ def final_text_clean(text: str) -> str:
     # all the text that comes after <br/>
     if "br" in text:
         text = text.split("<br/>")[0]
+    if "<" in text:
+        text = text.split("<")[0]
     return text
 
 

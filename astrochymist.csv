@@ -1,235 +1,282 @@
-Year,Molecule,Authors,Source,Detection Method
-1937,CHmethylidyne,"['P Swings', 'L Rosenfeld', 'A McKellar', 'S Adams', 'H Rydbeck', 'J Elldér', 'M Irvine', 'Y Sheffer', 'R Federman']",ζ Oph,"['Radio', 'UV/Vis']"
-1940,CNcyano radical,"['A McKellar', 'S Adams', 'B Jefferts', 'A Penzias', 'W Wilson']",ζ Oph,"['Radio', 'UV/Vis']"
-1941,CH+methylidyne cation,"['E Douglas', 'G Herzberg', 'T Dunham', 'S Adams']","ζ Oph, ξ Per, χ2 Ori, 55 Cyg",['UV/Vis']
-1963,OHhydroxyl radical,"['S Weinreb', 'H Barrett', 'L Meeks', 'C Henry']",Cas A,['Radio']
-1968,NH3ammonia,"['C Cheung', 'M Rank', 'H Townes', 'D Thornton', 'J Welch']",galactic center,['Radio']
-1969,H2Owater,"['C Cheung', 'M Rank', 'H Townes', 'D Thornton', 'J Welch']","Sgr B2, Orion nebula, W49",['Radio']
-1969,H2COformaldehyde,"['E Snyder', 'D Buhl', 'B Zuckerman', 'P Palmer']",Numerous sources,['Radio']
-1970,COcarbon monoxide,"['W Wilson', 'B Jefferts', 'A Penzias', 'P Solomon', 'B Jefferts', 'W Wilson', 'A Penzias', 'M Smith', 'P Stecher']","Orion nebula, IRC +10216","['Radio', 'UV/Vis']"
-1970,H2hydrogen,['R Carruthers'], Persei,['UV/Vis']
-1970,HCO+formyl cation,"['D Buhl', 'E Snyder']","Orion, W51, W3(OH), L134, Sgr A(NH3A)",['Radio']
-1970,CH3OHmethanol,"['A Ball', 'A Gottlieb', 'E Lilley', 'E Radford']","Sgr A, Sgr B2",['Radio']
-1971,HC3Ncyanoacetylene,['E Turner'],Sgr B2,['Radio']
-1971,HCNhydrogen cyanide,"['E Snyder', 'D Buhl']","W3(OH), Orion A, and 4 other sources",['Radio']
-1971,HCOOHformic acid,"['B Zuckerman', 'A Ball', 'A Gottlieb', 'G Winnewisser', 'E Churchwell']",Sgr B2,['Radio']
-1971,SiOsilicon monoxide,"['W Wilson', 'A Penzias', 'B Jefferts', 'N Kutner', 'P Thaddeus', 'F Dickinson']","Sgr B2, Orion A",['Radio']
-1971,CScarbon monosulfide,"['A Penzias', 'M Solomon', 'W Wilson', 'A Penzias', 'B Jefferts', 'B Zuckerman', 'M Morris', 'P Palmer', 'E Turner']","Orion A, W51, IRC +10216, DR 21",['Radio']
-1971,CH3CNmethyl cyanide,"['B Jefferts', 'A Penzias', 'W Wilson', 'M Solomon']","Sgr A, Sgr B",['Radio']
-1971,OCScarbonyl sulfide,"['B Jefferts', 'A Penzias', 'M Solomon', 'M Solomon']",Sgr B2,['Radio']
-1971,NH2CHOformamide,"['H Rubin', 'W Swenson', 'C Solomon', 'L Flygare']",Sgr B2,['Radio']
-1972,HNChydrogen isocyanide,"['E Snyder', 'D Buhl', 'B Zuckerman', 'M Morris', 'P Palmer', 'E Turner', 'L Blackman', 'D Brown', 'D Godfrey', 'I Gunn']","W51, NGC 2264",['Radio']
-1972,H2Shydrogen sulfide,"['P Thaddeus', 'L Kutner', 'A Penzias', 'W Wilson', 'B Jefferts']",7 sources,['Radio']
-1972,HNCOisocyanic acid,"['E Snyder', 'D Buhl']",Sgr B2,['Radio']
-1973,CH3CHOacetaldehyde,"['A Gottlieb', 'A Gordon', 'E Snyder', 'N Fourikis', 'W Sinclair', 'J Robinson', 'D Godfrey', 'D Brown', 'W Gilmore', 'M Morris', 'P Palmer', 'R Johnson', 'J Lovas', 'E Turner', 'B Zuckerman']",Sgr B2,['Radio']
-1973,CH3CCHmethylacetylene,"['D Buhl', 'E Snyder', 'A Gordon', 'E Snyder']",Sgr B2,['Radio']
-1973,CH2NHmethanimine,"['D Godfrey', 'D Brown', 'J Robinson', 'W Sinclair']",???,['Radio']
-1973,H2CSthioformaldehyde,"['W Sinclair', 'N Fourikis', 'C Ribes', 'J Robinson', 'D Brown', 'D Godfrey']",Sgr B2,['Radio']
-1973,SOsulfur monoxide,"['A Gottlieb', 'J Ball']","Orion A, etc.",['Radio']
-1974,CH3OCH3dimethyl ether,"['E Snyder', 'D Buhl', 'R Schwartz', 'O Clark', 'R Johnson', 'J Lovas']",Orion Nebula,['Radio']
-1974,CH3NH2methylamine,"['N Kaifu', 'M Morimoto', 'K Nagane', 'K Akabane', 'T Iguchi', 'K Takagi', 'N Fourikis', 'K Takagi', 'M Morimoto']","Sgr B2, Orion A",['Radio']
-1974,N2H+protonated nitrogen,"['E Turner', 'S Green', 'A Montgomery', 'P Thaddeus']",many sources,['Radio']
-1974,C2Hethynyl radical,"['D Tucker', 'L Kutner', 'P Thaddeus']","Orion A, etc.",['Radio']
-1975,CH2CHCNvinylcyanide,"['F Gardner', 'G Winnewisser']",Sgr B2,['Radio']
-1975,CH3CH2OHethanol,"['B Zuckerman', 'E Turner', 'R Johnson', 'O Clark', 'J Lovas', 'N Fourikis', 'P Palmer', 'M Morris', 'E Lilley', 'A Ball', 'A Gottlieb', 'H Penfield', 'C Pearson', 'N Sastry', 'E Herbst']",Sgr B2,['Radio']
-1975,HCOOCH3methyl formate,"['D Brown', 'G Crofts', 'D Godfrey', 'F Gardner', 'J Robinson', 'B Whiteoak', 'E Churchwell', 'G Winnewisser', 'L Neill', 'T Muckle', 'P Zaleski', 'L Steber', 'H Pate', 'V Lattanzi', 'S Spezzano', 'C McCarthy', 'J Remijan']",cis isomer: Sgr B2,['Radio']
-1975,SO2sulfur dioxide,"['E Snyder', 'M Hollis', 'L Ulich', 'J Lovas', 'D Buhl', 'R Johnson']",Orion A,['Radio']
-1975,SiSsilicon monosulfide,"['M Morris', 'W Gilmore', 'P Palmer', 'E Turner', 'B Zuckerman']",IRC +10216,['Radio']
-1975,NSnitrogen monosulfide,"['A Gottlieb', 'A Ball', 'W Gottlieb', 'J Lada', 'H Penfield', 'H Kuiper', 'K Kakar', 'N Rodriguez', 'B Zuckerman']",Sgr B2,['Radio']
-1975,NH2CNcyanamide,"['E Turner', 'S Liszt', 'N Kaifu', 'G Kisliakov']",Sgr B2,['Radio']
-1976,HC5Ncyanodiacetylene,"['W Avery', 'W Broten', 'M McLeod', 'W Kroto', 'W Broten', 'M McLeod', 'W Avery', 'W Brooks', 'X McGee', 'M Newton']",Sgr B2,['Radio']
-1976,HCOformyl radical,"['E Snyder', 'M Hollis', 'L Ulich']","W3, NGC 2024, W51, K3-50",['Radio']
-1976,C2H2acetylene,"['T Ridgway', 'B Hall', 'S Wojslaw', 'G Kleinmann', 'A Weinberger', 'H Lacy', 'J Evans', 'M Achtermann', 'E Bruce', 'F Arens', 'S Carr']",IRC +10 216,['IR']
-1977,C3Ncyanoethynyl radical,"['M Guélin', 'P Thaddeus', 'P Friberg', 'M Irvine', 'M Guélin']",IRC +10216,['Radio']
-1977,H2CCOketene,['E Turner'],Sgr B2,['Radio']
-1977,C2dicarbon,"['P Souza', 'L Lutz']",Cygnus OB2 No. 12,['IR']
-1977,HNOnitrosyl hydride,"['L Ulich', 'M Hollis', 'E Snyder', 'M Hollis', 'E Snyder', 'M Ziurys', 'D McGonagle', 'E Snyder', 'J Kuan', 'M Ziurys', 'M Hollis', 'M Ziurys', 'M Hollis']","Sgr B2, NGC 2024, etc.",['Radio']
-1977,CH3CH2CN,"['R Johnson', 'J Lovas', 'A Gottlieb', 'W Gottlieb', 'M Litvak', 'M Guélin']","OMC-1, Sgr B2",['Radio']
-1978,HC7Ncyanotriacetylene,"['W Kroto', 'C Kirby', 'M Walton', 'W Avery', 'W Broten', 'M MacLeod', 'T Little', 'H MacDonald', 'W Riley', 'N Matheson', 'G Winnewisser', 'M Walmsley']",Heiles 2 (& TMC2),['Radio']
-1978,HC9Ncyanotetraacetylene,"['W Broten', 'W Avery', 'M MacLeod', 'W Kroto']",Heile's Cloud 2,['Radio']
-1978,C4Hbutadiynyl radical,"['M Guélin', 'S Green', 'P Thaddeus']",IRC +10216(OH),['Radio']
-1978,NOnitric oxide,"['S Liszt', 'E Turner']",Sgr B2(OH),['Radio']
-1979,OCN–cyanate,"['T Soifer', 'C Puetter', 'W Russell', 'P Willner', 'M Harvey', 'C Gillett']",W33A,['IR']
-1979,CH3SHmethyl mercaptan,"['A Linke', 'A Frerking', 'P Thaddeus']",Sgr B2,['Radio']
-1979,HNCSisothiocyanic acid,"['A Frerking', 'A Linke', 'P Thaddeus']",Sgr B2,['Radio']
-1983,C2H4ethylene,['L Betz'],IRC +10216,['IR']
-1981,HCS+,"['P Thaddeus', 'M Guélin', 'A Linke']","Sgr B2, Orion A",['Radio']
-1981,HOCO+,"['P Thaddeus', 'M Guélin', 'A Linke', 'M Bogey', 'C Demuynck', 'L Destombes']","Sgr B2, Orion A",['Radio']
-1983,HOC+,"['C Woods', 'S Gudeman', 'L Dickman', 'F Goldsmith', 'R Huguenin', 'H Olofsson', 'M Ziurys', 'J Apponi']",Sgr B2,['Radio']
-1984,CH3C3N,"['W Broten', 'M MacLeod', 'W Avery', 'M Irvine', 'B Höglund', 'P Friberg']",TMC-1,['Radio']
-1984,SiH4,"['M Goldhaber', 'L Betz']",IRC +10216,['IR']
-1984,CH3C4H,"['M Walmsley', 'R Jewell', 'E Snyder', 'G Winnewisser', 'M MacLeod', 'W Avery', 'W Broten', 'B Loren', 'A Wootten', 'G Mundy']",TMC-1,['Radio']
-1985,C3O,"['E Matthews', 'M Irvine', 'P Friberg', 'D Brown', 'D Godfrey', 'D Brown', 'D Godfrey', 'M Cragg', 'N Rice', 'M Irvine', 'P Friberg', 'H Suzuki', 'M Ohishi', 'N Kaifu', 'M Morimoto']",TMC-1,['Radio']
-1984,c-SiC2,"['P Thaddeus', 'E Cummins', 'A Linke']",IRC +10216,['Radio']
-1985,C3H,"['P Thaddeus', 'A Gottlieb', 'A Hjalmarson', 'B Johansson', 'M Irvine', 'P Friberg', 'A Linke']","TMC-1, 21/2 ladder",['Radio']
-1985,HCl,"['A Blake', 'G Phillips', 'R Federman', 'A Cardell', 'L Lambert', 'H Black']",OMC-1,"['Radio', 'UV/Vis']"
-1985,c-C3H2,"['P Thaddeus', 'M Vrtilek', 'A Gottlieb']","Sgr B2, etc.",['Radio']
-1986,C6H,"['H Suzuki', 'M Ohishi', 'N Kaifu', 'I Ishikawa', 'T Kasuga', 'M Guélin', 'J Cernicharo', 'C Kahane', 'J Gomez', 'M Walmsley']",TMC-1,['Radio']
-1986,HCNH+,"['M Ziurys', 'E Turner']",Sgr B2,['Radio']
-1986,MgNC,"['M Guélin', 'J Cernicharo', 'C Kahane', 'J Gomez', 'K Kawaguchi', 'E Kagi', 'T Hirano', 'S Takano', 'S Saito', 'M Guelin', 'R Lucas', 'J Cernicharo']",IRC +10216,['Radio']
-1986,C5H,"['J Cernicharo', 'C Kahane', 'J Gómez', 'M Guélin', 'J Cernicharo', 'C Kahane', 'J Gómez', 'M Guélin']",IRC +10216,['Radio']
-1986,H3O+,"['A Wootten', 'F Boulanger', 'M Bogey', 'F Combes', 'J Encrenaz', 'M Gerin', 'L Ziurys', 'M Hollis', 'B Churchwell', 'E Herbst', 'A Wootten', 'G Mangum', 'E Turner', 'M Bogey', 'F Boulanger', 'F Combes', 'J Encrenaz', 'M Gerin']","OMC1, Sgr B2/Orion KL",['Radio']
-1987,C2S,"['S Saito', 'K Kawaguchi', 'S Yamamoto', 'M Ohishi', 'H Suzuki', 'N Kaifu', 'J Cernicharo', 'C Kahane', 'M Guélin', 'H Hein']","TMC-1, Sgr B2",['Radio']
-1987,C3S,"['N Kaifu', 'H Suzuki', 'M Ohishi', 'T Miyaji', 'S Ishikawa', 'T Kasuga', 'M Morimoto', 'S Yamamoto', 'S Saito', 'K Kawaguchi', 'N Kaifu', 'H Suzuki', 'J Cernicharo', 'C Kahane', 'M Guélin', 'H Hein']",TMC-1,['Radio']
-1987,(CH3)2CO,"['F Combes', 'M Gerin', 'A Wooten', 'G Wlodarczak', 'F Clausset', 'I Encrenaz', 'E Snyder', 'J Lovas', 'M Mehnringer', 'Y Miao', 'J Kuan', 'M Hollis', 'R Jewell']",Sgr B2,['Radio']
-1987,NaCl,"['J Cernicharo', 'M Guélin']",IRC +10216,['Radio']
-1987,AlCl,"['J Cernicharo', 'M Guélin']",IRC +10216,['Radio']
-1987,KCl,"['J Cernicharo', 'M Guélin']",IRC +10216,['Radio']
-1987,AlF,"['J Cernicharo', 'M Guélin', 'M Ziurys', 'J Apponi', 'G Phillips']",IRC +10216,['Radio']
-1987,c-C3H,"['S Yamamoto', 'S Saito', 'M Ohishi', 'H Suzuki', 'I Ishikawa', 'N Kaifu', 'A Murakami']",TMC-1,['Radio']
-1987,PN,"['E Turner', 'J Bally', 'M Ziurys']","Orion KL, W51M, Sgr B2",['Radio']
-1988,CH3NC,"['J Cernicharo', 'C Kahane', 'M Guélin', 'J Gomez', 'I High', 'P Gratier', 'J Pety', 'V Guzmán', 'M Gerin', 'R Goicoechea', 'E Roueff', 'A Faure']",Sgr B2,['Radio']
-1988,C3,"['H Hinkle', 'J Keady', 'F Bernath', 'J Cernicharo', 'R Goicoechea', 'E Caux']",IRC +10216,['IR']
-1988,CH2CN,"['M Irvine', 'P Friberg', 'S Ishikawa', 'N Kaifu', 'K Kawaguchi', 'C Madden', 'E Matthews', 'M Ohishi', 'S Saito', 'H Suzuki', 'P Thaddeus', 'E Turner', 'S Yamamoto', 'M Ziurys']","TMC-1, Sgr B2",['Radio']
-1988,HC2CHO,"['M Irvine', 'D Brown', 'M Craig', 'P Friberg', 'D Godfrey', 'N Kaifu', 'E Matthews', 'M Ohishi', 'H Suzuki', 'H Takeo']",TMC-1,['Radio']
-1989,C5,"['F Bernath', 'H Hinkle', 'J Keady']",IRC +10216,['IR']
-1989,SiC,"['J Cernicharo', 'A Gottlieb', 'M Guélin', 'P Thaddeus', 'M Vrtilek']",IRC +10216,['Radio']
-1989,SiC4,"['M Ohishi', 'N Kaifu', 'K Kawaguchi', 'A Murakami', 'S Saito', 'S Yamamoto', 'I Ishikawa', 'Y Fujita', 'S Shiratori', 'M Irvine']",IRC +10216,['Radio']
-1989,CO2,['M Jourdain'],"AFGL 961, 989, & 890",['IR']
-1989,CH2,"['M Hollis', 'R Jewell', 'J Lovas', 'M Hollis', 'R Jewell', 'J Lovas']","Orion-KL, W51 M",['Radio']
-1990,CP,"['M Guélin', 'J Cernicharo', 'G Paubert', 'E Turner']",IRC +10216,['Radio']
-1991,H2CCC,"['J Cernicharo', 'A Gottlieb', 'C Killian', 'G Paubert', 'P Thaddeus', 'M Vrtilek']",TMC-1,['Radio']
-1991,H2CCCC,"['J Cernicharo', 'A Gottlieb', 'C Killian', 'P Thaddeus', 'M Vrtilek']",IRC+10216,['Radio']
-1991,HC2N,"['M Guélin', 'J Cernicharo']",IRC +10216,['Radio']
-1991,NH,"['M Meyer', 'C Roth']",ζ Persei & HD 27778,['UV/Vis']
-1991,CH4,"['H Lacy', 'S Carr', 'J Evans', 'F Baas', 'M Achtermann', 'F Arens']","NGC 7538, IRS 9, etc.",['IR']
-1991,C2O,"['M Ohishi', 'H Suzuki', 'I Ishikawa', 'C Yamada', 'H Kanamori', 'M Irvine', 'D Brown', 'D Godfrey', 'N Kaifu']",TMC-1,['Radio']
-1992,HCCNC,"['K Kawaguchi', 'M Ohishi', 'I Ishikawa', 'N Kaifu']",TMC-1,['Radio']
-1992,SiN,['E Turner'],IRC +10216,['Radio']
-1992,HNCCC,"['K Kawaguchi', 'S Takano', 'M Ohishi', 'I Ishikawa', 'K Miyazawa', 'N Kaifu', 'K Yamashita', 'S Yamamoto', 'S Saito', 'Y Ohshima', 'Y Endo']",TMC-1,['Radio']
-1992,SO+,['E Turner'],IC 443G,['Radio']
-1993,NH2,"['J Jansen', 'P Schilke', 'G Phillips']",Sgr B2(N) and Sgr B2(M),['Radio']
-1993,CO+,"['B Latter', 'K Walker', 'R Maloney']",M17SW,['Radio']
-1994,HC3NH+,"['K Kawaguchi', 'Y Kasai', 'I Ishikawa', 'M Ohishi', 'N Kaifu', 'T Amano']",TMC-1,['Radio']
-1994,H2CN,"['M Ohishi', 'D McGonagle', 'M Irvine', 'S Yamamoto']","TMC-1, Sgr B2",['Radio']
-1994,NaCN,"['E Turner', 'C Steimle', 'L Meerts']",IRC +10216,['Radio']
-1994,N2O,"['M Ziurys', 'J Apponi', 'M Hollis', 'E Snyder']",Sgr B2,['Radio']
-1995,MgCN,"['M Ziurys', 'J Apponi', 'M Guélin', 'J Cernicharo']",IRC +10216,['Radio']
-1996,C8H,"['J Cernicharo', 'M Guélin']",IRC +10216,['Radio']
-1996,H3+,['R Geballe'],"GL2136, W33A",['IR']
-1996,H2COH+,"['M Ohishi', 'S Ishikawa', 'T Amano', 'M Irvine', 'E Dickens', 'M Ziurys']","Sgr B2, Orion KL, W51",['Radio']
-1997,C7H,"['M Guélin', 'J Cernicharo', 'J Travers', 'C McCarthy', 'A Gottlieb', 'P Thaddeus', 'M Ohishi', 'S Saito', 'S Yamamoto']",IRC +10216,['Radio']
-1997,CH3COOH,"['M Mehringer', 'E Snyder', 'Y Miao', 'F Lovas']","Sgr B2, Orion KL, W51",['Radio']
-1997,H2C6,"['D Langer', 'T Velusamy', 'H Kuiper', 'R Peng', 'C McCarthy', 'J Travers', 'A Kovács', 'A Gottlieb', 'P Thaddeus']",TMC-1,['Radio']
-1997,HF,"['A Neufeld', 'J Zmuidzinas', 'P Schilke', 'G Phillips']",Sgr B2,['Radio']
-1997,c-C2H4O,"['E Dickens', 'M Irvine', 'M Ohishi', 'M Ikeda', 'S Ishikawa', 'A Nummelin', 'A Hjalmarson']",Sgr B2N,['Radio']
-1998,LiH,"['F Combes', 'T Wiklind', 'N Friedel', 'A Kemball', 'D Fields', 'A Neufeld', 'F Goldsmith', 'C Comito', 'A Schmiedeke']",B0218+357,['Radio']
-1998,C5N,"['M Guélin', 'N Neininger', 'J Cernicharo']",TMC-1,['Radio']
-1999,SiC3,"['J Apponi', 'C McCarthy', 'A Gottlieb', 'P Thaddeus']",IRC +10216,['Radio']
-2000,CH3methyl radical,"['H Feuchtgruber', 'P Helmich', 'M Wright']",Sgr A*,['IR']
-2000,CH2OHCHO,"['M Hollis', 'J Lovas', 'R Jewell']",Sgr B2(N),['Radio']
-2000,SiCN,"['M Guélin', 'S Muller', 'J Cernicharo', 'J Apponi', 'C McCarthy', 'A Gottlieb', 'P Thaddeus']",IRC +10216/CW Leo,['Radio']
-2001,C4H2diacetylene,"['J Cernicharo', 'M Heras', 'M Tielens', 'R Pardo', 'F Herpin', 'M Guélin', 'M Waters']",CRL 618,['IR']
-2001,C6H2triacetylene,"['J Cernicharo', 'M Heras', 'M Tielens', 'R Pardo', 'F Herpin', 'M Guélin', 'M Waters']",CRL 618,['IR']
-2001,C6H6benzene,"['J Cernicharo', 'M Heras', 'M Tielens', 'R Pardo', 'F Herpin', 'M Guélin', 'M Waters']",CRL 618,['IR']
-2001,C2H5Naziridine,"['E Dickens', 'M Irvine', 'A Nummelin', 'H Møllendal', 'S Saito', 'S Thorwirth']","G327.3, G10.47, etc.",['Radio']
-2001,CH2CHOHvinyl alcohol,"['E Turner', 'J Apponi']","Sgr B2N, Anti form",['Radio']
-2002,AlNC,"['M Ziurys', 'C Savage', 'L Highberger', 'J Apponi', 'M Guélin', 'J Cernicharo']",IRC +10216,['Radio']
-2002,FeO,"['M Walmsley', 'R Bachiller', 'G Pineau', 'P Schilke']",Sgr B2(N),['Radio']
-2002,HOCH2CH2OH,"['M Hollis', 'J Lovas', 'R Jewell', 'H Coudert']",Sgr B2(N-LMH),['Radio']
-2004,C14H10,"['P Vijh', 'N Witt', 'D Gordon', 'H Nayfeh', 'R Habbal']",Red Rectangle,['IR']
-2004,N2,"['C Knauth', 'G Andersson', 'R McCandliss', 'W Moos']",HD 124314,['UV/Vis']
-2004,CH2CHCHO,"['M Hollis', 'R Jewell', 'J Lovas', 'A Remijan', 'H Møllendal']",Sgr B2(N),['Radio']
-2004,CH3CH2CHO,"['M Hollis', 'R Jewell', 'J Lovas', 'A Remijan', 'H Møllendal']",Sgr B2(N),['Radio']
-2004,SiNC,"['M Guélin', 'S Muller', 'J Cernicharo', 'C McCarthy', 'P Thaddeus']",IRC +10216,['Radio']
-2004,HC4N,"['J Cernicharo', 'M Guélin', 'R Pardo']",IRC +10216,['Radio']
-2005,CO(CH2OH)2*,"['L Widicus', 'A Blake', 'J Apponi', 'T Halfen', 'M Ziurys', 'M Hollis', 'J Remijan', 'J Lovas']",Sgr B2(N-LMH),['Radio']
-2006,CH2CCHCN,"['J Lovas', 'J Remijan', 'M Hollis', 'R Jewell', 'E Snyder', 'N Chin', 'I Kaiser', 'C Lemme', 'C Henkel']",TMC-1,['Radio']
-2006,c-H2C3O,"['M Hollis', 'J Remijan', 'R Jewell', 'J Lovas']",Sgr B2(N-LMH),['Radio']
-2006,CH3CONH2,"['M Hollis', 'J Lovas', 'J Remijan', 'R Jewell', 'V Ilyushin', 'I Kleiner']",Sgr B2(N),['Radio']
-2006,CH3C6H,"['J Remijan', 'M Hollis', 'E Snyder', 'R Jewell', 'J Lovas']",TMC-1,['Radio']
-2006,CH2CNH,"['J Lovas', 'M Hollis', 'J Remijan', 'R Jewell']",Sgr B2(N),['Radio']
-2006,CF+,"['A Neufeld', 'P Schilke', 'M Menten', 'G Wolfire', 'H Black', 'F Schuller', 'P Müller', 'S Thorwirth', 'R Güsten', 'S Philipp']",Orion Bar,['Radio']
-2006,CH3C5N,"['E Snyder', 'M Hollis', 'R Jewell', 'J Lovas', 'A Remijan']",TMC-1,['Radio']
-2006,C6H-,"['C McCarthy', 'A Gottlieb', 'H Gupta', 'P Thaddeus']","IRC +10216, TMC-1",['Radio']
-2007,C4H-,"['J Cernicharo', 'M Guélin', 'M Agúndez', 'K Kawaguchi', 'M McCarthy']",IRC +10216,['Radio']
-2007,HCP,"['M Agúndez', 'J Cernicharo', 'M Guélin']",IRC +10216,['Radio']
-2007,C8H-,"['S Brünken', 'H Gupta', 'A Gottlieb', 'C McCarthy', 'P Thaddeus', 'J Remijan', 'M Hollis', 'J Lovas', 'A Cordiner', 'J Millar', 'J Markwick', 'R Jewell']",TMC-1,['Radio']
-2007,CH2CHCH3,"['N Marcelino', 'J Cernicharo', 'M Agúndez', 'E Roueff', 'M Gerin', 'J Martín', 'R Mauersberger', 'C Thum']",TMC-1,['Radio']
-2007,PO,"['D Tenenbaum', 'J Woolf', 'M Ziurys']",VY Canis Majoris,['Radio']
-2008,CNCHO,"['J Remijan', 'M Hollis', 'J Lovas', 'D Stork', 'R Jewell', 'S Meier']",Sgr B2(N),['Radio']
-2008,CCP,"['T Halfen', 'J Clouthier', 'M Ziurys']",IRC +10216,['Radio']
-2008,C3N-,"['P Thaddeus', 'A Gottlieb', 'H Gupta', 'S Brünken', 'C McCarthy', 'M Agúndez', 'M Guélin', 'J Cernicharo']",IRC +10216,['Radio']
-2008,NH2CH2CNaminoacetonitrile,"['A Belloche', 'M Menten', 'C Comito', 'P Müller', 'P Schilke', 'S Thorwirth', 'C Hieret']",Sgr B2(N),['Radio']
-2008,PH3,"['M Agúndez', 'J Cernicharo', 'R Pardo', 'M Guélin', 'G Phillips', 'D Tenenbaum', 'M Ziurys', 'A Agúndez', 'J Cernicharo', 'L Decin', 'P Encrenaz', 'D Teyssier']","IRC +10216, CRL 2688",['Radio']
-2008,C5N-,"['J Cernicharo', 'M Guélin', 'M Agúndez', 'C McCarthy', 'P Thaddeus']",IRC +10216,['Radio']
-2009,HCNO,"['N Marcelino', 'J Cernicharo', 'B Tercero', 'E Roueff']","B1, L1544, L193, L1527",['Radio']
-2009,AlO,"['D Tenenbaum', 'M Ziurys']",VY Canis Major,['Radio']
-2009,HOCNcyanic acid,"['S Brünken', 'A Gottlieb', 'C McCarthy', 'P Thaddeus', 'S Brünken', 'A Belloche', 'S Martín', 'L Verheyen', 'M Menten']",Sgr B2,['Radio']
-2009,C2H5OCHO,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten', 'C Comito', 'P Schilke']",Sgr B2(N),['Radio']
-2009,n-C3H7CN,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten', 'C Comito', 'P Schilke']",Sgr B2(N),['Radio']
-2009,HSCN,"['T Halfen', 'M Ziurys', 'S Brünken', 'A Gottlieb', 'C McCarthy', 'P Thaddeus']",Sgr B2(N),['Radio']
-2010,AlOH,"['D Tenenbaum', 'M Ziurys']",VY Canis Major,['Radio']
-2010,CN-,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'C Kahane', 'E Roueff', 'J Klos', 'F Lique', 'N Marcelino', 'R Goicoechea', 'M González', 'A Gottlieb', 'C McCarthy', 'P Thaddeus']",IRC +10216,['Radio']
-2010,H2O+,['V Ossenkopf'],"DR21, Sgr B2(M), NGC6334",['Radio']
-2010,OH+,"['F Wyrowski', 'M Menten', 'R Güsten', 'A Belloche']",Sgr B2(M),['Radio']
-2010,H2Cl+,[],"NGC 6334I, Sgr B2(S)",['Radio']
-2010,C60,"['J Cami', 'J Bernard', 'E Peeters', 'E Malek', 'K Sellgren', 'W Werner', 'G Ingalls', 'T Smith', 'M Carleton', 'C Joblin']",Tc 1,['IR']
-2010,C70,"['J Cami', 'J Bernard', 'E Peeters', 'E Malek']",Tc 1,['IR']
-2010,C14H10+,"['S Iglesias', 'A Manchado', 'R Rebolo', 'I González', 'A Garcí', 'L Lambert']",Cernis 52,['Radio']
-2010,KCN,"['L Pulliam', 'C Savage', 'M Agúndez', 'J Cernicharo', 'M Guélin', 'M Ziurys']",IRC +10216,['Radio']
-2011,SH+,"['M Menten', 'F Wyrowski', 'A Belloche', 'R Güsten', 'L Dedes', 'P Müller']",Sgr B2,['Radio']
-2011,FeCN,"['N Zack', 'T Halfen', 'M Ziurys']",IRC +10216,['Radio']
-2011,HOOH,"['P Bergman', 'B Parise', 'R Liseau', 'B Larsson', 'H Olofsson', 'M Menten', 'R Güsten']",ρ Oph A,['Radio']
-2011,O2,"['F Goldsmith', 'B Larsson']",Orion,['Radio']
-2012,HO2,"['A Additional', 'B Parise', 'P Bergman']",ρ Oph A,['Radio']
-2012,HCl+,"['H Gupta', 'D Neufeld', 'M Gerin', 'D Teyssier', 'J Drouin', 'C Pearson', 'R Monje', 'G Phillips', 'R Goicoechea', 'B Godard', 'E Falgarone', 'A Coutens', 'A Bell']",W31C & W49N,['Radio']
-2012,SH,"['A Neufeld', 'E Falgarone', 'M Gerin', 'B Godard', 'E Herbst', 'G Pineau', 'I Vasyunin', 'R Güsten', 'H Wiesemeyer', 'O Ricken']",W49N,['Radio']
-2012,HNCNH,"['A McGuire', 'A Loomis', 'M Charness', 'F Corby', 'A Blake', 'M Hollis', 'J Lovas', 'R Jewell', 'J Remijan']",Sgr B2(N),['Radio']
-2012,CH3O,"['J Cernicharo', 'N Marcelino', 'E Roueff', 'M Gerin', 'A Jiménez', 'M Muñoz']",B1-b,['Radio']
-2012,l-C3H+,"['I First', 'J Pety', 'P Gratier', 'V Guzmán', 'E Roueff', 'M Gerin', 'R Goicoechea', 'S Bardeau', 'A Sievers', 'A Belloche', 'D Talbi', 'X Huang', 'C Fortenberry', 'S Brünken', 'L Kluge', 'A Stoffels', 'O Asvany', 'S Schlemmer']","Horsehead PDR, Sgr B2(N)",['Radio']
-2013,C60+,"['O Berné', 'G Mulas', 'C Joblin', 'A Galazutidinov', 'K Krełowski', 'A Musaev', 'P Ehrenfruend', 'H Foing', 'H Foing', 'A Ehrenfreund']",NGC 7023,['IR']
-2013,CH3CHNH,"['A Loomis', 'P Zaleski', 'L Steber', 'L Neill', 'T Muckle', 'J Harris', 'M Hollis', 'R Jewell', 'V Lattanzi', 'J Lovas', 'O Martinez', 'C McCarthy', 'J Remijan', 'H Pate']",Sgr B2(N),['Radio']
-2013,E-HNCHCN,"['P Zaleski', 'A Seifert', 'L Steber', 'T Muckle', 'A Loomis', 'F Corby', 'O Martinez', 'N Crabtree', 'R Jewell', 'M Hollis', 'J Lovas', 'D Vasquez', 'J Nyiramahirwe', 'N Sciortino', 'K Johnson', 'C McCarthy', 'J Remijan', 'H Pate']",Sgr B2(N),['Radio']
-2013,TiO,"['T Kamiński', 'A Gottlieb', 'M Menten', 'A Patel', 'H Young', 'S Brünken', 'C McCarthy', 'M Winters', 'L Decin']",VY Canis Majori,['Radio']
-2013,TiO2,"['T Kamiński', 'A Gottlieb', 'M Menten', 'A Patel', 'H Young', 'S Brünken', 'C McCarthy', 'M Winters', 'L Decin']",VY Canis Majori,['Radio']
-2013,CH3COOCH3,"['B Tercero', 'I Kleiner', 'J Cernicharo', 'L Nguyen', 'A López', 'M Muñoz']",Orion,['Radio']
-2013,NH3D+,"['J Cernicharo', 'B Tercero', 'A Fuente', 'L Domenech', 'M Cueto', 'E Carrasco', 'J Herrero', 'I Tanarro', 'N Marcelino', 'E Roeff', 'M Gerin', 'J Pearson', 'L Doménech', 'M Cueto', 'J Herrero', 'I Tanarro', 'B Tercero', 'A Fuente', 'J Cernicharo']","Orion-IRc2, B1-bS",['Radio']
-2013,C6H5OHphenol,"['L Kolesniková', 'M Daly', 'L Alonso', 'B Tercero', 'J Cernicharo']",Orion KL,['Radio']
-2013,HMgNC,"['C Cabezas', 'J Cernicharo', 'L Alonso', 'M Agúndez', 'S Mata', 'M Guélin', 'I Peña']",IRC +10216,['Radio']
-2013,H2NCO+,"['H Gupta', 'A Gottlieb', 'V Lattanzi', 'C Pearson', 'C McCarthy']",Sgr B2(N),['Radio']
-2013,ArH+,"['J Barlow', 'M Swinyard', 'J Owen', 'J Cernicharo', 'L Gomez', 'J Ivison', 'O Krause', 'M Matsuura', 'S Miller', 'G Olofsson', 'T Polehampton']",Crab Nebula,['Radio']
-2014,CH3CH2SH,"['L Kolesniková', 'B Tercero', 'J Cernicharo', 'L Alonso', 'M Daly', 'P Gordon', 'T Shipman']",Orion KL,['Radio']
-2014,C3H7CNisopropyl cyanide,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten']",Sgr B2(N),['Radio']
-2014,NO+nitrosylium ion,"['J Cernicharo', 'S Bailleux', 'E Alekseev', 'A Fuente', 'E Roueff', 'M Gerin', 'B Tercero', 'N Marcelino', 'R Bachiller', 'B Lefloch']",Barnard 1-b,['Radio']
-2014,C5S,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'B Bell', 'W Avery', 'A Feldman']",IRC+10216,['Radio']
-2014,MgCCHmagnesium acetylide,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'J Cernicharo', 'C Cabezas', 'R Pardo', 'M Agúndez', 'C Bermúdez', 'L Velilla', 'F Tercero', 'A López', 'D Gallego', 'P Fonfría', 'G Quintana', 'M Guélin', 'Y Endo']",IRC+10216,['Radio']
-2014,NCCPcyanophospha- ethyne,"['M Agúndez', 'J Cernicharo', 'M Guélin']",IRC+10216,['Radio']
-2014,SiH3CNsilyl cyanide,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'J Cernicharo', 'M Agúndez', 'L Velilla', 'M Guélin', 'R Pardo', 'C Kahane', 'C Marka', 'C Kramer', 'S Navarro', 'G Quintana', 'P Fonfría', 'N Marcelino', 'B Tercero', 'E Moreno', 'S Massalkhi', 'M Santander', 'C McCarthy', 'A Gottlieb', 'L Alonso']",IRC+10216,['Radio']
-2014,CCNcyanomethylidyne,"['K Anderson', 'M Ziurys']",IRC+10216,['Radio']
-2015,HCCOketenyl,"['M Agúndez', 'J Cernicharo', 'M Guélin']","Lupus-1A, L483",['Radio']
-2015,SiCSidisilicon carbide,"['J Cernicharo', 'C McCarthy', 'A Gottlieb', 'M Agúndez', 'L Velilla', 'H Baraban', 'B Changala', 'M Guélin', 'C Kahane', 'A Martin', 'A Patel', 'J Reilly', 'F Stanton', 'G Quintana', 'S Thorwirth', 'H Young']",IRC+10216,['Radio']
-2015,C60+buckyball cation,"['K Campbell', 'M Holz', 'D Gerlich', 'P Maier']",diffuse interstellar bands,['UV/Vis']
-2015,NCCNH+protonated cyanogen,"['M Agúndez', 'J Cernicharo', 'N Marcelino', 'E Roueff', 'A Fuente', 'M Gerin', 'M Guélin', 'C Albo', 'A Barcia', 'L Barbas', 'R Bolaño', 'F Colomer', 'C Diez', 'D Gallego', 'J Gómez', 'I López', 'A López', 'A López', 'I Malo', 'M Serna', 'F Tercero']","TMC-1, L483",['Radio']
-2015,CrOchromium monoxide,"['T Kamiński', 'E Mason', 'R Tylenda', 'R Schmidt']",V1309 Scorpii,['UV/Vis']
-2015,CH3NCOmethyl isocyanate,"['T Halfen', 'V Ilyushin', 'M Ziurys', 'J Cernicharo', 'Z Kisiel', 'B Tercero', 'L Kolesniková', 'R Medvedev', 'A López', 'S Fortman', 'M Winnewisser', 'L Alonso', 'C Guillemin']",Sgr B2(N),['Radio']
-2015,t-C2H5OCH3trans ethyl methyl ether,"['B Tercero', 'J Cernicharo', 'A López', 'N Brouillet', 'L Kolesniková', 'A Motiyenko', 'L Margulès', 'L Alonso', 'C Guillemin']",Orion KL,['Radio']
-2016,CH3CHCH2Opropylene oxide,"['A McGuire', 'B Carroll', 'A Loomis', 'A Finneran', 'R Jewell', 'J Remijan', 'A Blake']",Sgr B2(N),['Radio']
-2017,CH3NHCHON-methylformamide,"['A Belloche', 'A Meshcheryakov', 'T Garrod', 'V Ilyushin', 'A Alekseev', 'A Motiyenko', 'L Margulès', 'P Müller', 'M Menten']",Sgr B2(N2),['Radio']
-2017,HC5O,"['A McGuire', 'M Burkhardt', 'N Shingledecker', 'V Kalenskii', 'E Herbst', 'J Remijan', 'C McCarthy']",TMC-1,['Radio']
-2017,CH3Clchloromethane,"['C Fayolle', 'K Jørgensen', 'K Altwegg', 'H Calcutt', 'P Müller', 'M Rubin', 'P Bjerkeli', 'L Bourke', 'A Coutens', 'N Drozdovskaya', 'T Garrod', 'W Ligterink', 'V Persson', 'F Wampfler']",IRAS 16293-2422,['Radio']
-2017,CH3SiH3methyl silane,"['J Cernicharo', 'M Agúndez', 'L Velilla', 'M Guélin', 'R Pardo', 'C Kahane', 'C Marka', 'C Kramer', 'S Navarro', 'G Quintana', 'P Fonfría', 'N Marcelino', 'B Tercero', 'E Moreno', 'S Massalkhi', 'M Santander', 'C McCarthy', 'A Gottlieb', 'L Alonso']",IRC +10216,['Radio']
-2017,"HC7O1-oxo-hepta-2,4,6-triynyl","['A Cordiner', 'B Charnley', 'Z Kisiel', 'A McGuire', 'J Kuan', 'A McGuire', 'M Burkhardt', 'N Shingledecker', 'V Kalenskii', 'E Herbst', 'J Remijan', 'C McCarthy']",TMC-1,['Radio']
-2017,CH3OCH2OHmethoxymethanol,"['A McGuire', 'N Shingledecker', 'R Willis', 'M Burkhardt', 'A Motiyenko', 'L Brogan', 'R Hunter', 'L Margulès', 'C Guillemin', 'T Garrod', 'E Herbst', 'J Remijan']",NGC6334I(MM1 core),['Radio']
-2017,S2H ,"['A Fuente', 'R Goicoechea', 'J Pety', 'R Martín', 'P Gratier', 'V Guzmán', 'E Roueff', 'C Loison', 'M Muñoz', 'V Wakelam', 'M Gerin', 'P Riviere', 'T Vidal']",Horsehead nebula,['Radio']
-2018,c-C6H5CNbenzonitrile,"['A McGuire', 'M Burkhardt', 'S Kalenskii', 'N Shingledecker', 'J Remijan', 'E Herbst']",TMC-1,['Radio']
-2018,NS+nitrogen sulfide cation,"['J Cernicharo', 'B Lefloch', 'M Agúndez', 'S Bailleux', 'L Margulès', 'E Roueff', 'R Bachiller', 'N Marcelino', 'B Tercero', 'C Vastel', 'E Caux']","TMC-1, B1b, L483, etc.",['Radio']
-2018,HCSthioformyl,"['M Agúndez', 'N Marcelino', 'J Cernicharo', 'M Tafafa']",L483,['Radio']
-2018,HSCsulfhydryl carbide,"['M Agúndez', 'N Marcelino', 'J Cernicharo', 'M Tafafa']",L483,['Radio']
-2018,NCOisocyanate radical,"['N Marcelino', 'M Agúndez', 'J Cernicharo', 'E Roueff', 'M Tafalla']",L483,['Radio']
-2018,CNCNisocyanogen,"['M Agúndez', 'N Marcelino', 'J Cernicharo']",L483 (TMC-1?),['Radio']
-2019,Z-HNCHCNZ-cyanomethanimine,"['M Rivilla', 'J Martín', 'I Jiménez', 'S Zeng', 'S Martín', 'J Armijos', 'R Aladro', 'D Riquelme']",G+0.693,['Radio']
-2019,HOCH2CNglycolonitrile,"['S Zeng', 'D Quénard', 'I Jiménez', 'J Martín', 'L Testi', 'R Martín']",IRAS 16293-2422 B,['Radio']
-2019,trans-HONOnitrous acid,"['A Coutens', 'W Ligterink', 'C Loison', 'V Wakelam', 'H Calcutt', 'N Drozdovskaya', 'K Jørgensen', 'P Müller', 'F Wampfler']",IRAS 16293-2422 B,['Radio']
-2019,VOvanadium oxide,"['M Humphreys', 'M Ziurys', 'J Bernal', 'S Gordon', 'A Helton', 'K Ishibashi', 'J Jones', 'S Richards', 'W Vlemmings']",VY CMa,['UV/Vis']
-2019,HeH+helium hydride ion,"['R Güsten', 'H Wiesemeyer', 'D Neufeld', 'M Menten', 'U Graf', 'K Jacobs', 'B Klein', 'O Ricken', 'C Risacher', 'J Stutzki']",NGC 7027,['Radio']
-2019,CaNCcalcium isocyanide,"['J Cernicharo', 'L Velilla', 'M Agúndez', 'R Pardo', 'P Fonfría', 'G Quintana', 'C Cabezas', 'C Bermúdez', 'M Guélin']",IRC +10216,['Radio']
-2019,(NH2)2COurea,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten', 'I Medvedev', 'J Thomas', 'Z Kisiel', 'J Remijan', 'E Snyder', 'A McGuire', 'W Looney', 'N Friedel', 'Y Golubiatnikov', 'J Lovas', 'V Ilyushin', 'A Alekseev', 'F Dyubko', 'J McCall', 'M Hollis']",Sgr B2(N),['Radio']
-2019,MgC3N,"['J Cernicharo', 'C Cabezas', 'R Pardo', 'M Agúndez', 'C Bermúdez', 'L Velilla', 'F Tercero', 'A López', 'D Gallego', 'P Fonfría', 'G Quintana', 'M Guélin', 'Y Endo']",IRC +10216,['Radio']
-2019,MgC4H,"['J Cernicharo', 'C Cabezas', 'R Pardo', 'M Agúndez', 'C Bermúdez', 'L Velilla', 'F Tercero', 'A López', 'D Gallego', 'P Fonfría', 'G Quintana', 'M Guélin', 'Y Endo']",IRC +10216,['Radio']
-2020,NH2OH,"['M Rivilla', 'J Martín', 'I Jiménez', 'S Martín', 'F Rodríguez', 'A Requena', 'F Rico', 'S Zeng', 'C Briones']",G+0.693-0.027,['Radio']
-2020,CH3COCH2OH,"['Y Zhou', 'H Quan', 'X Zhang']",IRAS 16293-2422 B,['Radio']
-2020,HNCHCCH,"['L Bizzocchi', 'D Prudenzano', 'M Rivilla', 'A Pietropolli', 'M Giuliano', 'P Caselli', 'J Mart', 'I Jiménez', 'S Martín', 'A Requena', 'F Rico', 'S Zeng', 'C Guillemin']",G+0.693-0.027,['Radio']
-2020,HC4NC,"['R Willis', 'A Loomis', 'M Burkhardt', 'N Shingledecker', 'B Charnley', 'A Cordiner', 'S Kalenskii', 'C McCarthy', 'E Herbst', 'J Remijan', 'A McGuire', 'J Cernicharo', 'N Marcelino', 'M Agúndez', 'C Bermúdez', 'C Cabezas', 'B Tercero', 'R Pardo']",TMC-1,['Radio']
-2020,HCCCH2CN,"['A McGuire', 'M Burkhardt', 'A Loomis', 'N Shingledecker', 'B Charnley', 'A Cordiner', 'E Herbst', 'S Kalenskii', 'E Momjian', 'R Willis', 'J Remijan', 'C McCarthy']",TMC-1,['Radio']
-2020,HC3O+,"['J Cernicharo', 'N Marcelino', 'M Agúndez', 'Y Endo', 'C Cabezas', 'C Bermúdez', 'B Tercero']",TMC-1,['Radio']
+formula,year,Radio,IR,UV/Vis,authors,total,C,H,N,O,Si,S,Cl,Mg,Na,Al,K,F,P,Li,Fe,disputed,Ti,D,Ar,Cr,V,He,Ca,radical?
+CH,1937,True,False,True,"['P Swings', 'L Rosenfeld', 'A McKellar', 'S Adams', 'H Rydbeck', 'J Elldér', 'M Irvine', 'Y Sheffer', 'R Federman']",2,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+CN,1940,True,False,True,"['A McKellar', 'S Adams', 'B Jefferts', 'A Penzias', 'W Wilson']",2,1.0,,1.0,,,,,,,,,,,,,,,,,,,,,True
+CH+,1941,False,False,True,"['E Douglas', 'T Dunham', 'S Adams', 'G Herzberg']",2,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,False
+OH,1963,True,False,False,"['S Weinreb', 'H Barrett', 'L Meeks', 'C Henry']",2,,1.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+NH3,1968,True,False,False,"['C Cheung', 'M Rank', 'H Townes', 'D Thornton', 'J Welch']",4,,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+H2O,1969,True,False,False,"['C Cheung', 'M Rank', 'H Townes', 'D Thornton', 'J Welch']",3,,2.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+H2CO,1969,True,False,False,"['E Snyder', 'D Buhl', 'B Zuckerman', 'P Palmer']",4,1.0,2.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CO,1970,True,False,True,"['W Wilson', 'B Jefferts', 'A Penzias', 'P Solomon', 'B Jefferts', 'W Wilson', 'M Smith', 'P Stecher', 'A Penzias']",2,1.0,,,1.0,,,,,,,,,,,,,,,,,,,,False
+H2,1970,False,False,True,['R Carruthers'],2,,2.0,,,,,,,,,,,,,,,,,,,,,,False
+HCO+,1970,True,False,False,"['D Buhl', 'E Snyder']",3,1.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3OH,1970,True,False,False,"['A Ball', 'A Gottlieb', 'E Lilley', 'E Radford']",6,1.0,4.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+HC3N,1971,True,False,False,['E Turner'],5,3.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HCN,1971,True,False,False,"['E Snyder', 'D Buhl']",3,1.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HCOOH,1971,True,False,False,"['B Zuckerman', 'A Ball', 'A Gottlieb', 'G Winnewisser', 'E Churchwell']",5,1.0,2.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+SiO,1971,True,False,False,"['W Wilson', 'A Penzias', 'B Jefferts', 'N Kutner', 'P Thaddeus', 'F Dickinson']",2,,,,1.0,1.0,,,,,,,,,,,,,,,,,,,False
+CS,1971,True,False,False,"['A Penzias', 'M Solomon', 'W Wilson', 'A Penzias', 'B Jefferts', 'B Zuckerman', 'M Morris', 'P Palmer', 'E Turner']",2,1.0,,,,,1.0,,,,,,,,,,,,,,,,,,False
+CH3CN,1971,True,False,False,"['B Jefferts', 'A Penzias', 'W Wilson']",6,2.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+OCS,1971,True,False,False,"['B Jefferts', 'A Penzias', 'M Solomon', 'M Solomon']",3,1.0,,,1.0,,1.0,,,,,,,,,,,,,,,,,,False
+NH2CHO,1971,True,False,False,"['H Rubin', 'W Swenson', 'C Solomon', 'L Flygare']",6,1.0,3.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+HNC,1972,True,True,False,"['E Snyder', 'D Buhl', 'B Zuckerman', 'M Morris', 'P Palmer', 'E Turner', 'L Blackman', 'D Brown', 'D Godfrey', 'I Gunn', 'S Nickerson', 'N Rangwala', 'J Colgan', 'C DeWitt', 'X Huang', 'K Acharyya', 'M Drozdovskaya', 'C Fortenberry', 'E Herbst']",3,1.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+H2S,1972,True,False,False,"['P Thaddeus', 'L Kutner', 'A Penzias', 'W Wilson', 'B Jefferts']",3,,2.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+HNCO,1972,True,False,False,"['E Snyder', 'D Buhl']",4,1.0,1.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3CHO,1973,True,False,False,"['A Gottlieb', 'A Gordon', 'E Snyder', 'N Fourikis', 'W Sinclair', 'J Robinson', 'D Godfrey', 'D Brown', 'W Gilmore', 'M Morris', 'P Palmer', 'R Johnson', 'J Lovas', 'E Turner', 'B Zuckerman']",7,2.0,4.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3CCH,1973,True,False,False,"['D Buhl', 'E Snyder', 'A Gordon', 'E Snyder']",7,3.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+CH2NH,1973,True,False,False,"['D Godfrey', 'D Brown', 'J Robinson', 'W Sinclair']",5,1.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+H2CS,1973,True,False,False,"['W Sinclair', 'N Fourikis', 'C Ribes', 'J Robinson', 'D Brown', 'D Godfrey']",4,1.0,2.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+SO,1973,True,False,False,"['A Gottlieb', 'J Ball']",2,,,,1.0,,1.0,,,,,,,,,,,,,,,,,,False
+CH3OCH3,1974,True,False,False,"['E Snyder', 'D Buhl', 'R Schwartz', 'O Clark', 'R Johnson', 'J Lovas']",9,2.0,6.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3NH2,1974,True,False,False,"['N Kaifu', 'M Morimoto', 'K Nagane', 'K Akabane', 'T Iguchi', 'K Takagi', 'N Fourikis', 'K Takagi', 'M Morimoto']",7,1.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+N2H+,1974,True,False,False,"['E Turner', 'S Green', 'A Montgomery', 'P Thaddeus']",3,,1.0,2.0,,,,,,,,,,,,,,,,,,,,,False
+C2H,1974,True,False,False,"['D Tucker', 'L Kutner', 'P Thaddeus']",3,2.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+CH2CHCN,1975,True,False,False,"['F Gardner', 'G Winnewisser']",7,3.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+CH3CH2OH,1975,True,False,False,"['B Zuckerman', 'E Turner', 'R Johnson', 'O Clark', 'J Lovas', 'N Fourikis', 'P Palmer', 'M Morris', 'E Lilley', 'A Ball', 'A Gottlieb', 'H Penfield', 'C Pearson', 'N Sastry', 'E Herbst']",9,2.0,6.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+HCOOCH3,1975,True,True,False,"['D Brown', 'G Crofts', 'D Godfrey', 'F Gardner', 'J Robinson', 'B Whiteoak', 'E Churchwell', 'G Winnewisser', 'L Neill', 'T Muckle', 'P Zaleski', 'L Steber', 'H Pate', 'V Lattanzi', 'S Spezzano', 'C McCarthy', 'J Remijan', 'I Methyl', 'J Terwisscha', 'G Marcandalli', 'K McClure', 'R Hogerheijde', 'H Linnartz']",8,2.0,4.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+SO2,1975,True,False,False,"['E Snyder', 'M Hollis', 'L Ulich', 'J Lovas', 'D Buhl']",3,,,,2.0,,1.0,,,,,,,,,,,,,,,,,,False
+SiS,1975,True,False,False,"['M Morris', 'W Gilmore', 'P Palmer', 'E Turner', 'B Zuckerman']",2,,,,,1.0,1.0,,,,,,,,,,,,,,,,,,False
+NS,1975,True,False,False,"['A Gottlieb', 'A Ball', 'W Gottlieb', 'J Lada', 'H Penfield', 'H Kuiper', 'K Kakar', 'N Rodriguez', 'B Zuckerman']",2,,,1.0,,,1.0,,,,,,,,,,,,,,,,,,True
+NH2CN,1975,True,False,False,"['E Turner', 'S Liszt', 'N Kaifu', 'G Kisliakov']",5,1.0,2.0,2.0,,,,,,,,,,,,,,,,,,,,,False
+HC5N,1976,True,False,False,"['W Avery', 'W Broten', 'M McLeod', 'W Kroto', 'W Broten', 'M McLeod', 'W Avery', 'W Brooks', 'X McGee', 'M Newton']",7,5.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HCO,1976,True,False,False,"['E Snyder', 'M Hollis', 'L Ulich']",3,1.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+C2H2,1976,False,True,False,"['T Ridgway', 'B Hall', 'S Wojslaw', 'G Kleinmann', 'A Weinberger', 'H Lacy', 'J Evans', 'M Achtermann', 'E Bruce', 'F Arens', 'S Carr']",4,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+C3N,1977,True,False,False,"['M Guélin', 'P Thaddeus', 'P Friberg', 'M Irvine', 'M Guélin']",4,3.0,,1.0,,,,,,,,,,,,,,,,,,,,,True
+H2CCO,1977,True,False,False,['E Turner'],5,2.0,2.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+C2,1977,False,True,False,"['P Souza', 'L Lutz']",2,2.0,,,,,,,,,,,,,,,,,,,,,,,False
+HNO,1977,True,False,False,"['L Ulich', 'M Hollis', 'E Snyder', 'M Hollis', 'E Snyder', 'M Ziurys', 'D McGonagle', 'E Snyder', 'J Kuan', 'M Ziurys', 'M Hollis', 'M Ziurys', 'M Hollis']",3,,1.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3CH2CN,1977,True,False,False,"['R Johnson', 'J Lovas', 'A Gottlieb', 'W Gottlieb', 'M Litvak', 'M Guélin']",9,3.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HC7N,1978,True,False,False,"['W Kroto', 'C Kirby', 'M Walton', 'W Avery', 'W Broten', 'M MacLeod', 'T Little', 'H MacDonald', 'W Riley', 'N Matheson', 'G Winnewisser', 'M Walmsley']",9,7.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HC9N,1978,True,False,False,"['W Broten', 'W Avery', 'M MacLeod', 'W Kroto']",11,9.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+C4H,1978,True,False,False,"['M Guélin', 'S Green', 'P Thaddeus']",5,4.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+NO,1978,True,False,False,"['S Liszt', 'E Turner']",2,,,1.0,1.0,,,,,,,,,,,,,,,,,,,,True
+OCN–,1979,False,True,False,"['T Soifer', 'C Puetter', 'W Russell', 'P Willner', 'M Harvey', 'C Gillett']",3,1.0,,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3SH,1979,True,False,False,"['A Linke', 'A Frerking', 'P Thaddeus']",6,1.0,4.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+HNCS,1979,True,False,False,"['A Frerking', 'A Linke', 'P Thaddeus']",4,1.0,1.0,1.0,,,1.0,,,,,,,,,,,,,,,,,,False
+C2H4,1983,False,True,False,['L Betz'],6,2.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+HCS+,1981,True,False,False,"['P Thaddeus', 'M Guélin', 'A Linke']",3,1.0,1.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+HOCO+,1981,True,False,False,"['P Thaddeus', 'M Guélin', 'A Linke', 'M Bogey', 'C Demuynck', 'L Destombes']",4,1.0,1.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+HOC+,1983,True,False,False,"['C Woods', 'S Gudeman', 'L Dickman', 'F Goldsmith', 'R Huguenin', 'H Olofsson', 'M Ziurys', 'J Apponi']",3,1.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3C3N,1984,True,False,False,"['W Broten', 'M MacLeod', 'W Avery', 'M Irvine', 'B Höglund', 'P Friberg']",8,4.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+SiH4,1984,False,True,False,"['M Goldhaber', 'L Betz']",5,,4.0,,,1.0,,,,,,,,,,,,,,,,,,,False
+CH3C4H,1984,True,False,False,"['M Walmsley', 'R Jewell', 'E Snyder', 'G Winnewisser', 'M MacLeod', 'W Avery', 'W Broten', 'B Loren', 'A Wootten', 'G Mundy']",9,5.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+C3O,1985,True,False,False,"['E Matthews', 'M Irvine', 'P Friberg', 'D Brown', 'D Godfrey', 'D Brown', 'D Godfrey', 'M Cragg', 'N Rice', 'M Irvine', 'P Friberg', 'H Suzuki', 'M Ohishi', 'N Kaifu', 'M Morimoto']",4,3.0,,,1.0,,,,,,,,,,,,,,,,,,,,False
+c-SiC2,1984,True,False,False,"['P Thaddeus', 'E Cummins', 'A Linke']",3,2.0,,,,1.0,,,,,,,,,,,,,,,,,,,False
+C3H,1985,True,False,False,"['P Thaddeus', 'A Gottlieb', 'A Hjalmarson', 'B Johansson', 'M Irvine', 'P Friberg', 'A Linke']",4,3.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+HCl,1985,True,False,True,"['A Blake', 'G Phillips', 'R Federman', 'A Cardell', 'L Lambert', 'H Black']",2,,1.0,,,,,1.0,,,,,,,,,,,,,,,,,False
+c-C3H2,1985,True,False,False,"['P Thaddeus', 'M Vrtilek', 'A Gottlieb']",5,3.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+C6H,1986,True,False,False,"['H Suzuki', 'M Ohishi', 'N Kaifu', 'I Ishikawa', 'T Kasuga', 'M Guélin', 'J Cernicharo', 'C Kahane', 'J Gomez', 'M Walmsley']",7,6.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+HCNH+,1986,True,False,False,"['M Ziurys', 'E Turner']",4,1.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+MgNC,1986,True,False,False,"['M Guélin', 'J Cernicharo', 'C Kahane', 'J Gomez', 'K Kawaguchi', 'E Kagi', 'T Hirano', 'S Takano', 'S Saito', 'M Guelin', 'R Lucas', 'J Cernicharo']",3,1.0,,1.0,,,,,1.0,,,,,,,,,,,,,,,,True
+C5H,1986,True,False,False,"['J Cernicharo', 'C Kahane', 'J Gómez', 'M Guélin', 'J Cernicharo', 'C Kahane', 'J Gómez', 'M Guélin']",6,5.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+H3O+,1986,True,False,False,"['A Wootten', 'F Boulanger', 'M Bogey', 'F Combes', 'J Encrenaz', 'M Gerin', 'L Ziurys', 'M Hollis', 'B Churchwell', 'E Herbst', 'A Wootten', 'G Mangum', 'E Turner', 'M Bogey', 'F Boulanger', 'F Combes', 'J Encrenaz', 'M Gerin']",4,,3.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+C2S,1987,True,False,False,"['S Saito', 'K Kawaguchi', 'S Yamamoto', 'M Ohishi', 'H Suzuki', 'N Kaifu', 'J Cernicharo', 'C Kahane', 'M Guélin', 'H Hein']",3,2.0,,,,,1.0,,,,,,,,,,,,,,,,,,False
+C3S,1987,True,False,False,"['N Kaifu', 'H Suzuki', 'M Ohishi', 'T Miyaji', 'S Ishikawa', 'T Kasuga', 'M Morimoto', 'S Yamamoto', 'S Saito', 'K Kawaguchi', 'N Kaifu', 'H Suzuki', 'J Cernicharo', 'C Kahane', 'M Guélin', 'H Hein']",4,3.0,,,,,1.0,,,,,,,,,,,,,,,,,,False
+(CH3)2CO,1987,True,False,False,"['F Combes', 'M Gerin', 'A Wooten', 'G Wlodarczak', 'F Clausset', 'I Encrenaz', 'E Snyder', 'J Lovas', 'M Mehnringer', 'Y Miao', 'J Kuan', 'M Hollis', 'R Jewell']",10,3.0,6.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+NaCl,1987,True,False,False,"['J Cernicharo', 'M Guélin']",2,,,,,,,1.0,,1.0,,,,,,,,,,,,,,,False
+AlCl,1987,True,False,False,"['J Cernicharo', 'M Guélin']",2,,,,,,,1.0,,,1.0,,,,,,,,,,,,,,False
+KCl,1987,True,False,False,"['J Cernicharo', 'M Guélin']",2,,,,,,,1.0,,,,1.0,,,,,,,,,,,,,False
+AlF,1987,True,False,False,"['J Cernicharo', 'M Guélin', 'M Ziurys', 'J Apponi', 'G Phillips']",2,,,,,,,,,,1.0,,1.0,,,,,,,,,,,,False
+c-C3H,1987,True,False,False,"['S Yamamoto', 'S Saito', 'M Ohishi', 'H Suzuki', 'I Ishikawa', 'N Kaifu', 'A Murakami']",4,3.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+PN,1987,True,False,False,"['E Turner', 'J Bally', 'M Ziurys']",2,,,1.0,,,,,,,,,,1.0,,,,,,,,,,,False
+CH3NC,1988,True,False,False,"['J Cernicharo', 'C Kahane', 'M Guélin', 'J Gomez', 'I High', 'P Gratier', 'J Pety', 'V Guzmán', 'M Gerin', 'R Goicoechea', 'E Roueff', 'A Faure']",6,2.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+C3,1988,False,True,False,"['H Hinkle', 'J Keady', 'F Bernath', 'J Cernicharo', 'R Goicoechea', 'E Caux']",3,3.0,,,,,,,,,,,,,,,,,,,,,,,False
+CH2CN,1988,True,False,False,"['M Irvine', 'P Friberg', 'S Ishikawa', 'N Kaifu', 'K Kawaguchi', 'C Madden', 'E Matthews', 'M Ohishi', 'S Saito', 'H Suzuki', 'P Thaddeus', 'E Turner', 'S Yamamoto', 'M Ziurys']",5,2.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,,True
+HC2CHO,1988,True,False,False,"['M Irvine', 'D Brown', 'M Craig', 'P Friberg', 'D Godfrey', 'N Kaifu', 'E Matthews', 'M Ohishi', 'H Suzuki', 'H Takeo']",6,3.0,2.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+C5,1989,False,True,False,"['F Bernath', 'H Hinkle', 'J Keady']",5,5.0,,,,,,,,,,,,,,,,,,,,,,,False
+SiC,1989,True,False,False,"['J Cernicharo', 'A Gottlieb', 'M Guélin', 'P Thaddeus', 'M Vrtilek']",2,1.0,,,,1.0,,,,,,,,,,,,,,,,,,,False
+SiC4,1989,True,False,False,"['M Ohishi', 'N Kaifu', 'K Kawaguchi', 'A Murakami', 'S Saito', 'S Yamamoto', 'I Ishikawa', 'Y Fujita', 'S Shiratori', 'M Irvine']",5,4.0,,,,1.0,,,,,,,,,,,,,,,,,,,False
+CO2,1989,False,True,False,['M Jourdain'],3,1.0,,,2.0,,,,,,,,,,,,,,,,,,,,False
+CH2,1989,True,False,False,"['M Hollis', 'R Jewell', 'J Lovas', 'M Hollis', 'R Jewell', 'J Lovas']",3,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+CP,1990,True,False,False,"['M Guélin', 'J Cernicharo', 'G Paubert', 'E Turner']",2,1.0,,,,,,,,,,,,1.0,,,,,,,,,,,True
+H2CCC,1991,True,False,False,"['J Cernicharo', 'A Gottlieb', 'C Killian', 'G Paubert', 'P Thaddeus', 'M Vrtilek']",5,3.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+H2CCCC,1991,True,False,False,"['J Cernicharo', 'A Gottlieb', 'C Killian', 'P Thaddeus', 'M Vrtilek']",6,4.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+HC2N,1991,True,False,False,"['M Guélin', 'J Cernicharo']",4,2.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+NH,1991,False,False,True,"['M Meyer', 'C Roth']",2,,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+CH4,1991,False,True,False,"['H Lacy', 'S Carr', 'J Evans', 'F Baas', 'M Achtermann', 'F Arens']",5,1.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+C2O,1991,True,False,False,"['M Ohishi', 'H Suzuki', 'I Ishikawa', 'C Yamada', 'H Kanamori', 'M Irvine', 'D Brown', 'D Godfrey', 'N Kaifu']",3,2.0,,,1.0,,,,,,,,,,,,,,,,,,,,False
+HCCNC,1992,True,False,False,"['K Kawaguchi', 'M Ohishi', 'I Ishikawa', 'N Kaifu']",5,3.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+SiN,1992,True,False,False,['E Turner'],2,,,1.0,,1.0,,,,,,,,,,,,,,,,,,,True
+HNCCC,1992,True,False,False,"['K Kawaguchi', 'S Takano', 'M Ohishi', 'I Ishikawa', 'K Miyazawa', 'N Kaifu', 'K Yamashita', 'S Yamamoto', 'S Saito', 'Y Ohshima', 'Y Endo']",5,3.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+SO+,1992,True,False,False,['E Turner'],2,,,,1.0,,1.0,,,,,,,,,,,,,,,,,,True
+NH2,1993,True,False,False,"['J Jansen', 'P Schilke', 'G Phillips']",3,,2.0,1.0,,,,,,,,,,,,,,,,,,,,,True
+CO+,1993,True,False,False,"['B Latter', 'K Walker', 'R Maloney']",2,1.0,,,1.0,,,,,,,,,,,,,,,,,,,,True
+HC3NH+,1994,True,False,False,"['K Kawaguchi', 'Y Kasai', 'I Ishikawa', 'M Ohishi', 'N Kaifu', 'T Amano']",6,3.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+H2CN,1994,True,False,False,"['M Ohishi', 'D McGonagle', 'M Irvine', 'S Yamamoto']",4,1.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,,True
+NaCN,1994,True,False,False,"['E Turner', 'C Steimle', 'L Meerts']",3,1.0,,1.0,,,,,,1.0,,,,,,,,,,,,,,,False
+N2O,1994,True,False,False,"['M Ziurys', 'J Apponi', 'M Hollis']",3,,,2.0,1.0,,,,,,,,,,,,,,,,,,,,False
+MgCN,1995,True,False,False,"['M Ziurys', 'J Apponi', 'M Guélin', 'J Cernicharo']",3,1.0,,1.0,,,,,1.0,,,,,,,,,,,,,,,,True
+C8H,1996,True,False,False,"['J Cernicharo', 'M Guélin']",9,8.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+H3+,1996,False,True,False,['R Geballe'],3,,3.0,,,,,,,,,,,,,,,,,,,,,,False
+H2COH+,1996,True,False,False,"['M Ohishi', 'S Ishikawa', 'T Amano', 'M Irvine', 'E Dickens', 'M Ziurys']",5,1.0,3.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+C7H,1997,True,False,False,"['M Guélin', 'J Cernicharo', 'J Travers', 'C McCarthy', 'A Gottlieb', 'P Thaddeus', 'M Ohishi', 'S Saito', 'S Yamamoto']",8,7.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+CH3COOH,1997,True,False,False,"['M Mehringer', 'E Snyder', 'Y Miao', 'F Lovas']",8,2.0,4.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+H2C6,1997,True,False,False,"['D Langer', 'T Velusamy', 'H Kuiper', 'R Peng', 'C McCarthy', 'J Travers', 'A Kovács', 'A Gottlieb', 'P Thaddeus']",8,6.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+HF,1997,True,False,False,"['A Neufeld', 'J Zmuidzinas', 'P Schilke', 'G Phillips']",2,,1.0,,,,,,,,,,1.0,,,,,,,,,,,,False
+c-C2H4O,1997,True,False,False,"['E Dickens', 'M Irvine', 'M Ohishi', 'M Ikeda', 'S Ishikawa', 'A Nummelin', 'A Hjalmarson']",7,2.0,4.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+LiH,1998,True,False,False,"['F Combes', 'T Wiklind', 'N Friedel', 'A Kemball', 'D Fields', 'A Neufeld', 'F Goldsmith', 'C Comito', 'A Schmiedeke']",2,,1.0,,,,,,,,,,,,1.0,,,,,,,,,,False
+C5N,1998,True,False,False,"['M Guélin', 'N Neininger', 'J Cernicharo']",6,5.0,,1.0,,,,,,,,,,,,,,,,,,,,,True
+SiC3,1999,True,False,False,"['J Apponi', 'C McCarthy', 'A Gottlieb', 'P Thaddeus']",4,3.0,,,,1.0,,,,,,,,,,,,,,,,,,,False
+CH3,2000,False,True,False,"['H Feuchtgruber', 'P Helmich', 'M Wright']",4,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,True
+CH2OHCHO,2000,True,False,False,"['M Hollis', 'J Lovas', 'R Jewell']",8,2.0,4.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+SiCN,2000,True,False,False,"['M Guélin', 'S Muller', 'J Cernicharo', 'J Apponi', 'C McCarthy', 'A Gottlieb', 'P Thaddeus']",3,1.0,,1.0,,1.0,,,,,,,,,,,,,,,,,,,True
+C4H2,2001,False,True,False,"['J Cernicharo', 'M Heras', 'M Tielens', 'R Pardo', 'F Herpin', 'M Guélin', 'M Waters']",6,4.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+C6H2,2001,False,True,False,"['J Cernicharo', 'M Heras', 'M Tielens', 'R Pardo', 'F Herpin', 'M Guélin', 'M Waters']",8,6.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+C6H6,2001,False,True,False,"['J Cernicharo', 'M Heras', 'M Tielens', 'R Pardo', 'F Herpin', 'M Guélin', 'M Waters']",12,6.0,6.0,,,,,,,,,,,,,,,,,,,,,,False
+C2H5N,2001,True,False,False,"['E Dickens', 'M Irvine', 'A Nummelin', 'H Møllendal', 'S Saito', 'S Thorwirth']",8,2.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+CH2CHOH,2001,True,False,False,"['E Turner', 'J Apponi']",7,2.0,4.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+AlNC,2002,True,False,False,"['M Ziurys', 'C Savage', 'L Highberger', 'J Apponi', 'M Guélin', 'J Cernicharo']",3,1.0,,1.0,,,,,,,1.0,,,,,,,,,,,,,,False
+FeO,2002,True,False,False,"['M Walmsley', 'R Bachiller', 'G Pineau', 'P Schilke']",2,,,,1.0,,,,,,,,,,,1.0,,,,,,,,,False
+HOCH2CH2OH,2002,True,False,False,"['M Hollis', 'J Lovas', 'R Jewell', 'H Coudert']",10,2.0,6.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+NH2CH2COOH,2003,False,False,False,[],10,2.0,5.0,1.0,2.0,,,,,,,,,,,,True,,,,,,,,False
+C14H10,2004,False,True,False,"['P Vijh', 'N Witt', 'D Gordon', 'H Nayfeh', 'R Habbal']",24,14.0,10.0,,,,,,,,,,,,,,True,,,,,,,,False
+N2,2004,False,False,True,"['C Knauth', 'G Andersson', 'R McCandliss', 'W Moos']",2,,,2.0,,,,,,,,,,,,,,,,,,,,,False
+CH2CHCHO,2004,True,False,False,"['M Hollis', 'R Jewell', 'J Lovas', 'A Remijan', 'H Møllendal']",8,3.0,4.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3CH2CHO,2004,True,False,False,"['M Hollis', 'R Jewell', 'J Lovas', 'A Remijan', 'H Møllendal']",10,3.0,6.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+SiNC,2004,True,False,False,"['M Guélin', 'S Muller', 'J Cernicharo', 'C McCarthy', 'P Thaddeus']",3,1.0,,1.0,,1.0,,,,,,,,,,,,,,,,,,,True
+HC4N,2004,True,False,False,"['J Cernicharo', 'M Guélin', 'R Pardo']",6,4.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+CO(CH2OH)2,2005,True,False,False,"['L Widicus', 'A Blake', 'J Apponi', 'T Halfen', 'M Ziurys', 'M Hollis', 'J Remijan', 'J Lovas']",12,3.0,6.0,,3.0,,,,,,,,,,,,True,,,,,,,,False
+CH2CCHCN,2006,True,False,False,"['J Lovas', 'J Remijan', 'M Hollis', 'R Jewell', 'E Snyder', 'N Chin', 'I Kaiser', 'C Lemme', 'C Henkel']",8,4.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+c-H2C3O,2006,True,False,False,"['M Hollis', 'J Remijan', 'R Jewell', 'J Lovas']",6,3.0,2.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3CONH2,2006,True,False,False,"['M Hollis', 'J Lovas', 'J Remijan', 'R Jewell', 'V Ilyushin', 'I Kleiner']",9,2.0,5.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3C6H,2006,True,False,False,"['J Remijan', 'M Hollis', 'E Snyder', 'R Jewell', 'J Lovas']",11,7.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+CH2CNH,2006,True,False,False,"['J Lovas', 'M Hollis', 'J Remijan', 'R Jewell']",6,2.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+CF+,2006,True,False,False,"['A Neufeld', 'P Schilke', 'M Menten', 'G Wolfire', 'H Black', 'F Schuller', 'P Müller', 'S Thorwirth', 'R Güsten', 'S Philipp']",2,1.0,,,,,,,,,,,1.0,,,,,,,,,,,,False
+CH3C5N,2006,True,False,False,"['E Snyder', 'M Hollis', 'R Jewell', 'J Lovas', 'A Remijan']",10,6.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+C6H-,2006,True,False,False,"['C McCarthy', 'A Gottlieb', 'H Gupta', 'P Thaddeus']",7,6.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+C4H-,2007,True,False,False,"['J Cernicharo', 'M Guélin', 'M Agúndez', 'K Kawaguchi', 'M McCarthy']",5,4.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+HCP,2007,True,False,False,"['M Agúndez', 'J Cernicharo', 'M Guélin']",3,1.0,1.0,,,,,,,,,,,1.0,,,,,,,,,,,False
+C8H-,2007,True,False,False,"['S Brünken', 'H Gupta', 'A Gottlieb', 'C McCarthy', 'P Thaddeus', 'J Remijan', 'M Hollis', 'J Lovas', 'A Cordiner', 'J Millar', 'J Markwick', 'R Jewell']",9,8.0,1.0,,,,,,,,,,,,,,,,,,,,,,True
+CH2CHCH3,2007,True,False,False,"['N Marcelino', 'J Cernicharo', 'M Agúndez', 'E Roueff', 'M Gerin', 'J Martín', 'R Mauersberger', 'C Thum']",9,3.0,6.0,,,,,,,,,,,,,,,,,,,,,,False
+PO,2007,True,False,False,"['D Tenenbaum', 'J Woolf', 'M Ziurys']",2,,,,1.0,,,,,,,,,1.0,,,,,,,,,,,True
+CNCHO,2008,True,False,False,"['J Remijan', 'M Hollis', 'J Lovas', 'D Stork', 'R Jewell', 'S Meier']",5,2.0,1.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+CCP,2008,True,False,False,"['T Halfen', 'J Clouthier', 'M Ziurys']",3,2.0,,,,,,,,,,,,1.0,,,,,,,,,,,True
+C3N-,2008,True,False,False,"['P Thaddeus', 'A Gottlieb', 'H Gupta', 'S Brünken', 'C McCarthy', 'M Agúndez', 'M Guélin', 'J Cernicharo']",4,3.0,,1.0,,,,,,,,,,,,,,,,,,,,,True
+NH2CH2CN,2008,True,False,False,"['A Belloche', 'M Menten', 'C Comito', 'P Müller', 'P Schilke', 'S Thorwirth', 'C Hieret']",8,2.0,4.0,2.0,,,,,,,,,,,,,,,,,,,,,False
+PH3,2008,True,False,False,"['M Agúndez', 'J Cernicharo', 'R Pardo', 'M Guélin', 'G Phillips', 'D Tenenbaum', 'M Ziurys', 'A Agúndez', 'J Cernicharo', 'L Decin', 'P Encrenaz', 'D Teyssier']",4,,3.0,,,,,,,,,,,1.0,,,,,,,,,,,False
+C5N-,2008,True,False,False,"['J Cernicharo', 'M Guélin', 'M Agúndez', 'C McCarthy', 'P Thaddeus']",6,5.0,,1.0,,,,,,,,,,,,,,,,,,,,,True
+HCNO,2009,True,False,False,"['N Marcelino', 'J Cernicharo', 'B Tercero', 'E Roueff']",4,1.0,1.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+AlO,2009,True,False,False,"['D Tenenbaum', 'M Ziurys']",2,,,,1.0,,,,,,1.0,,,,,,,,,,,,,,True
+HOCN,2009,True,False,False,"['S Brünken', 'A Gottlieb', 'C McCarthy', 'P Thaddeus', 'S Brünken', 'A Belloche', 'S Martín', 'L Verheyen', 'M Menten']",4,1.0,1.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+C2H5OCHO,2009,True,False,False,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten', 'C Comito', 'P Schilke']",11,3.0,6.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+n-C3H7CN,2009,True,False,False,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten', 'C Comito', 'P Schilke']",12,4.0,7.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HSCN,2009,True,False,False,"['T Halfen', 'M Ziurys', 'S Brünken', 'A Gottlieb', 'C McCarthy', 'P Thaddeus']",4,1.0,1.0,1.0,,,1.0,,,,,,,,,,,,,,,,,,False
+AlOH,2010,True,False,False,"['D Tenenbaum', 'M Ziurys']",3,,1.0,,1.0,,,,,,1.0,,,,,,,,,,,,,,False
+CN-,2010,True,False,False,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'C Kahane', 'E Roueff', 'J Klos', 'F Lique', 'N Marcelino', 'R Goicoechea', 'M González', 'A Gottlieb', 'C McCarthy', 'P Thaddeus']",2,1.0,,1.0,,,,,,,,,,,,,,,,,,,,,True
+H2O+,2010,True,False,False,['V Ossenkopf'],3,,2.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+OH+,2010,True,False,False,"['F Wyrowski', 'M Menten', 'R Güsten', 'A Belloche']",2,,1.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+H2Cl+,2010,True,False,False,[],3,,2.0,,,,,1.0,,,,,,,,,,,,,,,,,False
+C60,2010,False,True,False,"['J Cami', 'J Bernard', 'E Peeters', 'E Malek', 'K Sellgren', 'W Werner', 'G Ingalls', 'T Smith', 'M Carleton', 'C Joblin']",60,60.0,,,,,,,,,,,,,,,,,,,,,,,False
+C70,2010,False,True,False,"['J Cami', 'J Bernard', 'E Peeters', 'E Malek']",70,70.0,,,,,,,,,,,,,,,,,,,,,,,False
+C14H10+,2010,True,False,False,"['S Iglesias', 'A Manchado', 'R Rebolo', 'I González', 'A Garcí', 'L Lambert']",24,14.0,10.0,,,,,,,,,,,,,,,,,,,,,,True
+KCN,2010,True,False,False,"['L Pulliam', 'C Savage', 'M Agúndez', 'J Cernicharo', 'M Guélin', 'M Ziurys']",3,1.0,,1.0,,,,,,,,1.0,,,,,,,,,,,,,False
+SH+,2011,True,False,False,"['M Menten', 'F Wyrowski', 'A Belloche', 'R Güsten', 'L Dedes', 'P Müller']",2,,1.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+FeCN,2011,True,False,False,"['N Zack', 'T Halfen', 'M Ziurys']",3,1.0,,1.0,,,,,,,,,,,,1.0,,,,,,,,,True
+HOOH,2011,True,False,False,"['P Bergman', 'B Parise', 'R Liseau', 'B Larsson', 'H Olofsson', 'M Menten', 'R Güsten']",4,,2.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+O2,2011,True,False,False,"['F Goldsmith', 'B Larsson']",2,,,,2.0,,,,,,,,,,,,,,,,,,,,False
+HO2,2012,True,False,False,"['A Additional', 'B Parise', 'P Bergman']",3,,1.0,,2.0,,,,,,,,,,,,,,,,,,,,True
+HCl+,2012,True,False,False,"['H Gupta', 'D Neufeld', 'M Gerin', 'D Teyssier', 'J Drouin', 'C Pearson', 'R Monje', 'G Phillips', 'R Goicoechea', 'B Godard', 'E Falgarone', 'A Coutens', 'A Bell']",2,,1.0,,,,,1.0,,,,,,,,,,,,,,,,,True
+SH,2012,True,False,False,"['A Neufeld', 'E Falgarone', 'M Gerin', 'B Godard', 'E Herbst', 'G Pineau', 'I Vasyunin', 'R Güsten', 'H Wiesemeyer', 'O Ricken']",2,,1.0,,,,1.0,,,,,,,,,,,,,,,,,,True
+trans HCOOCH3,2012,False,False,False,[],8,2.0,4.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+HNCNH,2012,True,False,False,"['A McGuire', 'A Loomis', 'M Charness', 'F Corby', 'A Blake', 'M Hollis', 'J Lovas', 'R Jewell', 'J Remijan']",5,1.0,2.0,2.0,,,,,,,,,,,,,,,,,,,,,False
+CH3O,2012,True,False,False,"['J Cernicharo', 'N Marcelino', 'E Roueff', 'M Gerin', 'A Jiménez', 'M Muñoz']",5,1.0,3.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+l-C3H+,2012,True,False,False,"['I First', 'J Pety', 'P Gratier', 'V Guzmán', 'E Roueff', 'M Gerin', 'R Goicoechea', 'S Bardeau', 'A Sievers', 'A Belloche', 'D Talbi', 'X Huang', 'C Fortenberry', 'S Brünken', 'L Kluge', 'A Stoffels', 'O Asvany', 'S Schlemmer']",4,3.0,1.0,,,,,,,,,,,,,,,,,,,,,,False
+C60+,2013,False,True,False,"['O Berné', 'G Mulas', 'C Joblin', 'A Galazutidinov', 'K Krełowski', 'A Musaev', 'P Ehrenfruend', 'H Foing', 'H Foing', 'A Ehrenfreund']",60,60.0,,,,,,,,,,,,,,,,,,,,,,,True
+CH3CHNH,2013,True,False,False,"['A Loomis', 'P Zaleski', 'L Steber', 'L Neill', 'T Muckle', 'J Harris', 'M Hollis', 'R Jewell', 'V Lattanzi', 'J Lovas', 'O Martinez', 'C McCarthy', 'J Remijan', 'H Pate']",8,2.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+E-HNCHCN,2013,True,False,False,"['P Zaleski', 'A Seifert', 'L Steber', 'T Muckle', 'A Loomis', 'F Corby', 'O Martinez', 'N Crabtree', 'R Jewell', 'M Hollis', 'J Lovas', 'D Vasquez', 'J Nyiramahirwe', 'N Sciortino', 'K Johnson', 'C McCarthy', 'J Remijan', 'H Pate']",6,2.0,2.0,2.0,,,,,,,,,,,,,,,,,,,,,False
+TiO,2013,True,False,False,"['T Kamiński', 'A Gottlieb', 'M Menten', 'A Patel', 'H Young', 'S Brünken', 'C McCarthy', 'M Winters', 'L Decin']",2,,,,1.0,,,,,,,,,,,,,1.0,,,,,,,False
+TiO2,2013,True,False,False,"['T Kamiński', 'A Gottlieb', 'M Menten', 'A Patel', 'H Young', 'S Brünken', 'C McCarthy', 'M Winters', 'L Decin']",3,,,,2.0,,,,,,,,,,,,,1.0,,,,,,,False
+CH3COOCH3,2013,True,False,False,"['B Tercero', 'I Kleiner', 'J Cernicharo', 'L Nguyen', 'A López', 'M Muñoz']",11,3.0,6.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+NH3D+,2013,True,False,False,"['J Cernicharo', 'B Tercero', 'A Fuente', 'L Domenech', 'M Cueto', 'E Carrasco', 'J Herrero', 'I Tanarro', 'N Marcelino', 'E Roeff', 'M Gerin', 'J Pearson', 'L Doménech', 'M Cueto', 'J Herrero', 'I Tanarro', 'B Tercero', 'A Fuente', 'J Cernicharo']",5,,3.0,1.0,,,,,,,,,,,,,,,1.0,,,,,,False
+C6H5OH,2013,True,False,False,"['L Kolesniková', 'M Daly', 'L Alonso', 'B Tercero', 'J Cernicharo']",13,6.0,6.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+HMgNC,2013,True,False,False,"['C Cabezas', 'J Cernicharo', 'L Alonso', 'M Agúndez', 'S Mata', 'M Guélin', 'I Peña']",4,1.0,1.0,1.0,,,,,1.0,,,,,,,,,,,,,,,,False
+H2NCO+,2013,True,False,False,"['H Gupta', 'A Gottlieb', 'V Lattanzi', 'C Pearson', 'C McCarthy']",5,1.0,2.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+ArH+,2013,True,False,False,"['J Barlow', 'M Swinyard', 'J Owen', 'J Cernicharo', 'L Gomez', 'J Ivison', 'O Krause', 'M Matsuura', 'S Miller', 'G Olofsson', 'T Polehampton']",2,,1.0,,,,,,,,,,,,,,,,,1.0,,,,,False
+CH3CH2SH,2014,True,False,False,"['L Kolesniková', 'B Tercero', 'J Cernicharo', 'L Alonso', 'M Daly', 'P Gordon', 'T Shipman']",9,2.0,6.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+i-C3H7CN,2014,True,False,False,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten']",12,4.0,7.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+NO+,2014,True,False,False,"['J Cernicharo', 'S Bailleux', 'E Alekseev', 'A Fuente', 'E Roueff', 'M Gerin', 'B Tercero', 'N Marcelino', 'R Bachiller', 'B Lefloch']",2,,,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+C5S,2014,True,False,False,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'B Bell', 'W Avery', 'A Feldman']",6,5.0,,,,,1.0,,,,,,,,,,,,,,,,,,False
+MgCCH,2014,True,False,False,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'J Cernicharo', 'C Cabezas', 'R Pardo', 'M Agúndez', 'C Bermúdez', 'L Velilla', 'F Tercero', 'A López', 'D Gallego', 'P Fonfría', 'G Quintana', 'M Guélin', 'Y Endo']",4,2.0,1.0,,,,,,1.0,,,,,,,,,,,,,,,,True
+NCCP,2014,True,False,False,"['M Agúndez', 'J Cernicharo', 'M Guélin']",4,2.0,,1.0,,,,,,,,,,1.0,,,,,,,,,,,False
+SiH3CN,2014,True,False,False,"['M Agúndez', 'J Cernicharo', 'M Guélin', 'J Cernicharo', 'M Agúndez', 'L Velilla', 'M Guélin', 'R Pardo', 'C Kahane', 'C Marka', 'C Kramer', 'S Navarro', 'G Quintana', 'P Fonfría', 'N Marcelino', 'B Tercero', 'E Moreno', 'S Massalkhi', 'M Santander', 'C McCarthy', 'A Gottlieb', 'L Alonso']",6,1.0,3.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,False
+CCN,2014,True,False,False,"['K Anderson', 'M Ziurys']",3,2.0,,1.0,,,,,,,,,,,,,,,,,,,,,True
+HCCO,2015,True,False,False,"['M Agúndez', 'J Cernicharo', 'M Guélin']",4,2.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+SiCSi,2015,True,False,False,"['J Cernicharo', 'C McCarthy', 'A Gottlieb', 'M Agúndez', 'L Velilla', 'H Baraban', 'B Changala', 'M Guélin', 'C Kahane', 'A Martin', 'A Patel', 'J Reilly', 'F Stanton', 'G Quintana', 'S Thorwirth', 'H Young']",3,1.0,,,,2.0,,,,,,,,,,,,,,,,,,,False
+C60+,2015,False,False,True,"['K Campbell', 'M Holz', 'D Gerlich', 'P Maier']",60,60.0,,,,,,,,,,,,,,,,,,,,,,,True
+NCCNH+,2015,True,False,False,"['M Agúndez', 'J Cernicharo', 'N Marcelino', 'E Roueff', 'A Fuente', 'M Gerin', 'M Guélin', 'C Albo', 'A Barcia', 'L Barbas', 'R Bolaño', 'F Colomer', 'C Diez', 'D Gallego', 'J Gómez', 'I López', 'A López', 'A López', 'I Malo', 'M Serna', 'F Tercero']",5,2.0,1.0,2.0,,,,,,,,,,,,,,,,,,,,,False
+CrO,2015,False,False,True,"['T Kamiński', 'E Mason', 'R Tylenda', 'R Schmidt']",2,,,,1.0,,,,,,,,,,,,,,,,1.0,,,,False
+CH3NCO,2015,True,False,False,"['T Halfen', 'V Ilyushin', 'M Ziurys', 'J Cernicharo', 'Z Kisiel', 'B Tercero', 'L Kolesniková', 'R Medvedev', 'A López', 'S Fortman', 'M Winnewisser', 'L Alonso', 'C Guillemin']",7,2.0,3.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+t-C2H5OCH3,2015,True,False,False,"['B Tercero', 'J Cernicharo', 'A López', 'N Brouillet', 'L Kolesniková', 'A Motiyenko', 'L Margulès', 'L Alonso', 'C Guillemin']",12,3.0,8.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3CHCH2O,2016,True,False,False,"['A McGuire', 'B Carroll', 'A Loomis', 'A Finneran', 'R Jewell', 'J Remijan', 'A Blake']",10,3.0,6.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3NHCHO,2017,True,False,False,"['A Belloche', 'A Meshcheryakov', 'T Garrod', 'V Ilyushin', 'A Alekseev', 'A Motiyenko', 'L Margulès', 'P Müller', 'M Menten']",9,2.0,5.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+HC5O    ,2017,True,False,False,"['A McGuire', 'M Burkhardt', 'N Shingledecker', 'V Kalenskii', 'E Herbst', 'J Remijan', 'C McCarthy']",7,5.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+CH3Cl,2017,True,False,False,"['C Fayolle', 'K Jørgensen', 'K Altwegg', 'H Calcutt', 'P Müller', 'M Rubin', 'P Bjerkeli', 'L Bourke', 'A Coutens', 'N Drozdovskaya', 'T Garrod', 'W Ligterink', 'V Persson', 'F Wampfler']",5,1.0,3.0,,,,,1.0,,,,,,,,,,,,,,,,,False
+CH3SiH3,2017,True,False,False,"['J Cernicharo', 'M Agúndez', 'L Velilla', 'M Guélin', 'R Pardo', 'C Kahane', 'C Marka', 'C Kramer', 'S Navarro', 'G Quintana', 'P Fonfría', 'N Marcelino', 'B Tercero', 'E Moreno', 'S Massalkhi', 'M Santander', 'C McCarthy', 'A Gottlieb', 'L Alonso']",8,1.0,6.0,,,1.0,,,,,,,,,,,,,,,,,,,False
+HC7O,2017,True,False,False,"['A Cordiner', 'B Charnley', 'Z Kisiel', 'A McGuire', 'J Kuan', 'A McGuire', 'M Burkhardt', 'N Shingledecker', 'V Kalenskii', 'E Herbst', 'J Remijan', 'C McCarthy']",9,7.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+CH3OCH2OH,2017,True,False,False,"['A McGuire', 'N Shingledecker', 'R Willis', 'M Burkhardt', 'A Motiyenko', 'L Brogan', 'R Hunter', 'L Margulès', 'C Guillemin', 'T Garrod', 'E Herbst', 'J Remijan']",10,2.0,6.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+S2H,2017,True,False,False,"['A Fuente', 'R Goicoechea', 'J Pety', 'R Martín', 'P Gratier', 'V Guzmán', 'E Roueff', 'C Loison', 'M Muñoz', 'V Wakelam', 'M Gerin', 'P Riviere', 'T Vidal']",3,,1.0,,,,2.0,,,,,,,,,,,,,,,,,,True
+c-C6H5CN,2018,True,False,False,"['A McGuire', 'M Burkhardt', 'S Kalenskii', 'N Shingledecker', 'J Remijan', 'E Herbst']",13,7.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+NS+,2018,True,False,False,"['J Cernicharo', 'B Lefloch', 'M Agúndez', 'S Bailleux', 'L Margulès', 'E Roueff', 'R Bachiller', 'N Marcelino', 'B Tercero', 'C Vastel', 'E Caux']",2,,,1.0,,,1.0,,,,,,,,,,,,,,,,,,False
+HCS,2018,True,False,False,"['M Agúndez', 'N Marcelino', 'J Cernicharo', 'M Tafafa']",3,1.0,1.0,,,,1.0,,,,,,,,,,,,,,,,,,True
+HSC,2018,True,False,False,"['M Agúndez', 'N Marcelino', 'J Cernicharo', 'M Tafafa']",3,1.0,1.0,,,,1.0,,,,,,,,,,,,,,,,,,True
+NCO,2018,True,False,False,"['N Marcelino', 'M Agúndez', 'J Cernicharo', 'E Roueff', 'M Tafalla']",3,1.0,,1.0,1.0,,,,,,,,,,,,,,,,,,,,True
+CNCN,2018,True,False,False,"['M Agúndez', 'N Marcelino', 'J Cernicharo']",4,2.0,,2.0,,,,,,,,,,,,,,,,,,,,,False
+Z-HNCHCN,2019,True,False,False,"['M Rivilla', 'J Martín', 'I Jiménez', 'S Zeng', 'S Martín', 'J Armijos', 'R Aladro', 'D Riquelme']",6,2.0,2.0,2.0,,,,,,,,,,,,,,,,,,,,,False
+HOCH2CN,2019,True,False,False,"['S Zeng', 'D Quénard', 'I Jiménez', 'J Martín', 'L Testi', 'R Martín']",7,2.0,3.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+trans-HONO,2019,True,False,False,"['A Coutens', 'W Ligterink', 'C Loison', 'V Wakelam', 'H Calcutt', 'N Drozdovskaya', 'K Jørgensen', 'P Müller', 'F Wampfler']",4,,1.0,1.0,2.0,,,,,,,,,,,,,,,,,,,,False
+VO,2019,False,False,True,"['M Humphreys', 'M Ziurys', 'J Bernal', 'S Gordon', 'A Helton', 'K Ishibashi', 'J Jones', 'S Richards', 'W Vlemmings']",2,,,,1.0,,,,,,,,,,,,,,,,,1.0,,,True
+HeH+,2019,True,False,False,"['R Güsten', 'H Wiesemeyer', 'D Neufeld', 'M Menten', 'U Graf', 'K Jacobs', 'B Klein', 'O Ricken', 'C Risacher', 'J Stutzki']",2,,1.0,,,,,,,,,,,,,,,,,,,,1.0,,False
+CaNC,2019,True,False,False,"['J Cernicharo', 'L Velilla', 'M Agúndez', 'R Pardo', 'P Fonfría', 'G Quintana', 'C Cabezas', 'C Bermúdez', 'M Guélin']",3,1.0,,1.0,,,,,,,,,,,,,,,,,,,,1.0,True
+(NH2)2CO,2019,True,False,False,"['A Belloche', 'T Garrod', 'P Müller', 'M Menten', 'I Medvedev', 'J Thomas', 'Z Kisiel', 'J Remijan', 'E Snyder', 'A McGuire', 'W Looney', 'N Friedel', 'Y Golubiatnikov', 'J Lovas', 'V Ilyushin', 'A Alekseev', 'F Dyubko', 'J McCall', 'M Hollis']",8,1.0,4.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,False
+MgC3N      ,2019,True,False,False,"['J Cernicharo', 'C Cabezas', 'R Pardo', 'M Agúndez', 'C Bermúdez', 'L Velilla', 'F Tercero', 'A López', 'D Gallego', 'P Fonfría', 'G Quintana', 'M Guélin', 'Y Endo']",5,3.0,,1.0,,,,,1.0,,,,,,,,,,,,,,,,True
+MgC4H      ,2019,True,False,False,"['J Cernicharo', 'C Cabezas', 'R Pardo', 'M Agúndez', 'C Bermúdez', 'L Velilla', 'F Tercero', 'A López', 'D Gallego', 'P Fonfría', 'G Quintana', 'M Guélin', 'Y Endo']",6,4.0,1.0,,,,,,1.0,,,,,,,,,,,,,,,,True
+NH2OH      ,2020,True,False,False,"['M Rivilla', 'J Martín', 'I Jiménez', 'S Martín', 'F Rodríguez', 'A Requena', 'F Rico', 'S Zeng', 'C Briones']",5,,3.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3COCH2OH      ,2020,True,False,False,"['Y Zhou', 'H Quan', 'X Zhang']",11,3.0,6.0,,2.0,,,,,,,,,,,,,,,,,,,,False
+Z-HNCHCCH      ,2020,True,False,False,"['L Bizzocchi', 'D Prudenzano', 'M Rivilla', 'A Pietropolli', 'M Giuliano', 'P Caselli', 'J Martín', 'I Jiménez', 'S Martín', 'A Requena', 'F Rico', 'S Zeng', 'C Guillemin']",7,3.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HC4NC      ,2020,True,False,False,"['R Willis', 'A Loomis', 'M Burkhardt', 'N Shingledecker', 'B Charnley', 'A Cordiner', 'S Kalenskii', 'C McCarthy', 'E Herbst', 'J Remijan', 'A McGuire', 'J Cernicharo', 'N Marcelino', 'M Agúndez', 'C Bermúdez', 'C Cabezas', 'B Tercero', 'R Pardo']",7,5.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HCCCH2CN      ,2020,True,False,False,"['A McGuire', 'M Burkhardt', 'A Loomis', 'N Shingledecker', 'B Charnley', 'A Cordiner', 'E Herbst', 'S Kalenskii', 'E Momjian', 'R Willis', 'J Remijan', 'C McCarthy', 'N Marcelino', 'B Tercero', 'M Agúndez', 'J Cernicharo']",8,4.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HC3O+,2020,True,False,False,"['J Cernicharo', 'N Marcelino', 'M Agúndez', 'Y Endo', 'C Cabezas', 'C Bermúdez', 'B Tercero']",5,3.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+HC5NH+,2020,True,False,False,"['N Marcelino', 'M Agúndez', 'B Tercero', 'C Cabezas', 'C Bermúdez', 'D Gallego', 'P deVicente', 'J Cernicharo']",8,5.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+c-C5H5CN      ,2021,True,False,False,"['C McCarthy', 'A Loomis', 'M Burkhardt', 'N Shingledecker', 'B Charnley', 'A Cordiner', 'E Herbst', 'S Kalenskii', 'R Willis', 'J Remijan', 'A McGuire']",12,6.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HC11N      ,2021,True,False,False,"['A Loomis', 'M Burkhardt', 'N Shingledecker', 'B Charnley', 'A Cordiner', 'E Herbst', 'S Kalenskii', 'R Willis', 'J Remijan', 'C McCarthy', 'A McGuire']",13,11.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HC≡CCH=CHC≡N      ,2021,True,False,False,"['A Loomis', 'M Burkhardt', 'R Cooke', 'A Siebert', 'N Shingledecker', 'A Remijan', 'B Charnley', 'C McCarthy', 'A McGuire']",9,5.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+H2C=CHC3N      ,2021,True,False,False,"['A Loomis', 'M Burkhardt', 'R Cooke', 'A Siebert', 'N Shingledecker', 'A Remijan', 'B Charnley', 'C McCarthy', 'A McGuire']",9,5.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HC3S+,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'Y Endo', 'N Marcelino', 'M Agúndez', 'B Tercero', 'D Gallego']",5,3.0,1.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+CH3CO+,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'S Bailleux', 'L Margulès', 'R Motiyenko', 'Y Endo', 'C Bermúdez', 'M Agúndez', 'N Marcelino', 'B Lefloch', 'B Tercero']",6,2.0,3.0,,1.0,,,,,,,,,,,,,,,,,,,,False
+c-C5H5CN      ,2021,True,False,False,"['B Changala', 'A Loomis', 'M Burkhardt', 'A Cordiner', 'B Charnley', 'C McCarthy', 'A McGuire']",12,6.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+C10H7CN      ,2021,True,False,False,"['A McGuire', 'A Loomis', 'M Burkhardt', 'N Shingledecker', 'B Charnley', 'R Cooke', 'A Cordiner', 'E Herbst', 'S Kalenskii', 'A Siebert', 'R Willis', 'J Remijan', 'C McCarthy']",19,11.0,7.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+C10H7CN      ,2021,True,False,False,"['A McGuire', 'A Loomis', 'M Burkhardt', 'N Shingledecker', 'B Charnley', 'R Cooke', 'A Cordiner', 'E Herbst', 'S Kalenskii', 'A Siebert', 'R Willis', 'J Remijan', 'C McCarthy']",19,11.0,7.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+CH2CHCCH      ,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'C Cabezas', 'N Marcelino', 'B Tercero', 'R Pardo', 'D Gallego', 'F Tercero', 'A López']",8,4.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+H2CCCHCCH      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'M Agúndez', 'B Tercero', 'N Marcelino', 'R Pardo', 'F Tercero', 'D Gallego', 'A López', 'P deVicente']",9,5.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+CH2CCH      ,2021,True,False,False,"['M Agúndez', 'C Cabezas', 'B Tercero', 'N Marcelino', 'D Gallego', 'J Cernicharo']",6,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,True
+NCS      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'M Agúndez', 'B Tercero', 'R Pardo', 'N Marcelino', 'D Gallego', 'F Tercero', 'A López']",3,1.0,,1.0,,,1.0,,,,,,,,,,,,,,,,,,True
+HCCS      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'M Agúndez', 'B Tercero', 'R Pardo', 'N Marcelino', 'D Gallego', 'F Tercero', 'A López']",4,2.0,1.0,,,,1.0,,,,,,,,,,,,,,,,,,True
+H2CCS      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'M Agúndez', 'B Tercero', 'R Pardo', 'N Marcelino', 'D Gallego', 'F Tercero', 'A López']",5,2.0,2.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+H2CCCS      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'M Agúndez', 'B Tercero', 'R Pardo', 'N Marcelino', 'D Gallego', 'F Tercero', 'A López']",6,3.0,2.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+C4S      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'M Agúndez', 'B Tercero', 'R Pardo', 'N Marcelino', 'D Gallego', 'F Tercero', 'A López']",5,4.0,,,,,1.0,,,,,,,,,,,,,,,,,,False
+t-HC(O)SH      ,2021,True,False,False,"['F Rodríguez', 'I Jiménez', 'M Rivilla', 'J Martín', 'S Zeng', 'B Tercero', 'L Colzi', 'F Rico', 'S Martín', 'A Requena']",5,1.0,2.0,,1.0,,1.0,,,,,,,,,,,,,,,,,,False
+c-C3HCCH      ,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Pardo']",7,5.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+c-C5H6,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Pardo']",11,5.0,6.0,,,,,,,,,,,,,,,,,,,,,,False
+c-C9H8,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Pardo', 'M Burkhardt', 'B Changala', 'N Shingledecker', 'R Cooke', 'A Loomis', 'B Charnley', 'E Herbst', 'C McCarthy', 'A McGuire']",17,9.0,8.0,,,,,,,,,,,,,,,,,,,,,,False
+NH2CH2CH2OH      ,2021,True,False,False,"['M Rivilla', 'I Jiménez', 'J Martín', 'C Briones', 'F Rodríguez', 'F Rico', 'B Tercero', 'S Zeng', 'L Colzi', 'S Martín', 'A Requena']",11,2.0,7.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+H2C5,2021,True,False,False,"['C Cabezas', 'B Tercero', 'M Agúndez', 'N Marcelino', 'R Pardo', 'J Cernicharo']",7,5.0,2.0,,,,,,,,,,,,,,,,,,,,,,False
+HCSCN      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'Y Endo', 'M Agúndez', 'B Tercero', 'R Pardo', 'N Marcelino']",5,2.0,1.0,1.0,,,1.0,,,,,,,,,,,,,,,,,,False
+HCSCCH      ,2021,True,False,False,"['J Cernicharo', 'C Cabezas', 'Y Endo', 'M Agúndez', 'B Tercero', 'R Pardo', 'N Marcelino']",6,3.0,2.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+HNCN      ,2021,True,False,False,"['M Rivilla', 'I Jiménez', 'J García', 'J Martín', 'L Colzi', 'F Rodríguez', 'B Tercero', 'F Rico', 'S Zeng', 'S Martín', 'A Requena']",4,1.0,1.0,2.0,,,,,,,,,,,,,,,,,,,,,True
+o-C6H4,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'I Kaiser', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Pardo']",10,6.0,4.0,,,,,,,,,,,,,,,,,,,,,,False
+H2CCCHC3N      ,2021,True,False,False,"['N Shingledecker', 'T Wandishin', 'N Balucani', 'M Burkhardt', 'B Charnley', 'R Loomis', 'M Schreffler', 'M Siebert', 'C McCarthy', 'A McGuire']",10,6.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+MgC5N      ,2021,True,False,False,"['R Pardo', 'C Cabezas', 'P Fonfría', 'M Agúndez', 'B Tercero', 'M Guélin', 'J Cernicharo']",7,5.0,,1.0,,,,,1.0,,,,,,,,,,,,,,,,True
+MgC6H      ,2021,True,False,False,"['R Pardo', 'C Cabezas', 'P Fonfría', 'M Agúndez', 'B Tercero', 'M Guélin', 'J Cernicharo']",8,6.0,1.0,,,,,,1.0,,,,,,,,,,,,,,,,True
+C2H5CONH2,2021,True,False,False,"['J Wang', 'V Ilyushin', 'A Motiyenko', 'A Alekseev', 'D Quan', 'L Margulès', 'J Lovas', 'E Bergin', 'Z Shen', 'S Zheng', 'X Zheng']",12,3.0,7.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+C2H3NH2,2021,True,False,False,"['S Zeng', 'I Jiménez', 'M Rivilla', 'J Martín', 'F Rodríguez', 'B Tercero', 'F Rico', 'L Colzi', 'S Martín', 'A Requena']",8,2.0,5.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+C2H5NH2,2021,True,False,False,"['S Zeng', 'I Jiménez', 'M Rivilla', 'J Martín', 'F Rodríguez', 'B Tercero', 'F Rico', 'L Colzi', 'S Martín', 'A Requena']",10,2.0,7.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+C2H5NCO      ,2021,True,False,False,"['F Rodríguez', 'M Rivilla', 'I Jiménez', 'M Melosso', 'L Colzi', 'S Zeng', 'B Tercero', 'S Martín', 'A Requena', 'F Rico', 'J Martín']",10,3.0,5.0,1.0,1.0,,,,,,,,,,,,,,,,,,,,False
+CH2CCCN      ,2021,True,False,False,"['C Cabezas', 'M Agúndez', 'N Marcelino', 'B Tercero', 'R Pardo', 'J Cernicharo']",7,4.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,,True
+H2NC,2021,True,False,False,"['C Cabezas', 'M Agúndez', 'N Marcelino', 'B Tercero', 'S Cuadrado', 'J Cernicharo']",4,1.0,2.0,1.0,,,,,,,,,,,,,,,,,,,,,True
+c-C5H5CCH      ,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'I Kaiser', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Pardo']",13,7.0,6.0,,,,,,,,,,,,,,,,,,,,,,False
+c-C5H5CCH      ,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'I Kaiser', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Pardo']",13,7.0,6.0,,,,,,,,,,,,,,,,,,,,,,False
+C6H5CCH      ,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'I Kaiser', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Pardo']",14,8.0,6.0,,,,,,,,,,,,,,,,,,,,,,False
+HCCCO      ,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Fuentetaja', 'R Pardo']",5,3.0,1.0,,1.0,,,,,,,,,,,,,,,,,,,,True
+C5O      ,2021,True,False,False,"['J Cernicharo', 'M Agúndez', 'C Cabezas', 'B Tercero', 'N Marcelino', 'R Fuentetaja', 'R Pardo']",6,5.0,,,1.0,,,,,,,,,,,,,,,,,,,,False
+CH3C7N      ,2022,True,False,False,"['A Siebert', 'J Remijan', 'M Burkhardt', 'A Loomis', 'C McCarthy', 'A McGuire']",12,8.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,False
+HCCS+,2022,True,False,False,"['C Cabezas', 'M Agúndez', 'N Marcelino', 'B Tercero', 'Y Endo', 'R Fuentetaja', 'R Pardo', 'J Cernicharo']",4,2.0,1.0,,,,1.0,,,,,,,,,,,,,,,,,,False
+C5H+,2022,True,False,False,"['J Cernicharo', 'M Agúndez', 'C Cabezas', 'R Fuentetaja', 'B Tercero', 'N Marcelino', 'Y Endo', 'R Pardo']",6,5.0,1.0,,,,,,,,,,,,,,,,,,,,,,False
